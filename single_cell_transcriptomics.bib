@@ -1,4 +1,23 @@
-@article{
+@article{gronbechScVAEVariationalAutoencoders2020,
+  title = {{{scVAE}}: Variational Auto-Encoders for Single-Cell Gene Expression Data},
+  shorttitle = {{{scVAE}}},
+  author = {Gr{\o}nbech, Christopher Heje and Vording, Maximillian Fornitz and Timshel, Pascal N and S{\o}nderby, Casper Kaae and Pers, Tune H and Winther, Ole},
+  year = 2020,
+  month = aug,
+  journal = {Bioinformatics},
+  volume = {36},
+  number = {16},
+  pages = {4415--4422},
+  issn = {1367-4803},
+  doi = {10.1093/bioinformatics/btaa293},
+  urldate = {2025-02-12},
+  abstract = {Models for analysing and making relevant biological inferences from massive amounts of complex single-cell transcriptomic data typically require several individual data-processing steps, each with their own set of hyperparameter choices. With deep generative models one can work directly with count data, make likelihood-based model comparison, learn a latent representation of the cells and capture more of the variability in different cell populations.We propose a novel method based on variational auto-encoders (VAEs) for analysis of single-cell RNA sequencing (scRNA-seq) data. It avoids data preprocessing by using raw count data as input and can robustly estimate the expected gene expression levels and a latent representation for each cell. We tested several count likelihood functions and a variant of the VAE that has a priori clustering in the latent space. We show for several scRNA-seq datasets that our method outperforms recently proposed scRNA-seq methods in clustering cells and that the resulting clusters reflect cell types.Our method, called scVAE, is implemented in Python using the TensorFlow machine-learning library, and it is freely available at https://github.com/scvae/scvae.Supplementary data are available at Bioinformatics online.},
+  keywords = {review_2604_3:postprocessing},
+  note = {VAE based perturbation modelling},
+  file = {/Users/adrienleroy/Zotero/storage/26SK2V63/Grønbech et al. - 2020 - scVAE variational auto-encoders for single-cell g.pdf;/Users/adrienleroy/Zotero/storage/T4YMPZB6/5838187.html}
+}
+
+@article{karaiskosDrosophilaEmbryoSinglecell2017,
   title = {The {{Drosophila}} Embryo at Single-Cell Transcriptome Resolution},
   author = {Karaiskos, Nikos and Wahle, Philipp and Alles, Jonathan and Boltengagen, Anastasiya and Ayoub, Salah and Kipar, Claudia and Kocks, Christine and Rajewsky, Nikolaus and Zinzen, Robert P},
   year = 2017,
@@ -7,28 +26,7 @@
   file = {/Users/adrienleroy/Zotero/storage/H32T9472/Karaiskos et al. - 2017 - The Drosophila embryo at single-cell transcriptome.pdf}
 }
 
-@article{
-  title = {{{scConfluence}}: Single-Cell Diagonal Integration with Regularized {{Inverse Optimal Transport}} on Weakly Connected Features},
-  shorttitle = {{{scConfluence}}},
-  author = {Samaran, Jules and Peyr{\'e}, Gabriel and Cantini, Laura},
-  year = 2024,
-  month = sep,
-  journal = {Nature Communications},
-  volume = {15},
-  number = {1},
-  pages = {7762},
-  publisher = {Nature Publishing Group},
-  issn = {2041-1723},
-  doi = {10.1038/s41467-024-51382-x},
-  urldate = {2025-08-09},
-  abstract = {The abundance of unpaired multimodal single-cell data has motivated a growing body of research into the development of diagonal integration methods. However, the state-of-the-art suffers from the loss of biological information due to feature conversion and struggles with modality-specific populations. To overcome these crucial limitations, we here introduce scConfluence, a method for single-cell diagonal integration. scConfluence combines uncoupled autoencoders on the complete set of features with regularized Inverse Optimal Transport on weakly connected features. We extensively benchmark scConfluence in several single-cell integration scenarios proving that it outperforms the state-of-the-art. We then demonstrate the biological relevance of scConfluence in three applications. We predict spatial patterns for Scgn, Synpr and Olah in scRNA-smFISH integration. We improve the classification of B cells and Monocytes in highly heterogeneous scRNA-scATAC-CyTOF integration. Finally, we reveal the joint contribution of Fezf2 and apical dendrite morphology in Intra Telencephalic neurons, based on morphological images and scRNA.},
-  copyright = {2024 The Author(s)},
-  langid = {english},
-  keywords = {Computational models,Data integration,Machine learning,RNA sequencing,Sequencing},
-  file = {/Users/adrienleroy/Zotero/storage/FDT5CIZN/Samaran et al. - 2024 - scConfluence single-cell diagonal integration wit.pdf}
-}
-
-@article{
+@article{liBenchmarkingSpatialSinglecell2022,
   title = {Benchmarking Spatial and Single-Cell Transcriptomics Integration Methods for Transcript Distribution Prediction and Cell Type Deconvolution},
   author = {Li, Bin and Zhang, Wen and Guo, Chuang and Xu, Hao and Li, Longfei and Fang, Minghao and Hu, Yinlei and Zhang, Xinye and Yao, Xinfeng and Tang, Meifang and Liu, Ke and Zhao, Xuetong and Lin, Jun and Cheng, Linzhao and Chen, Falai and Xue, Tian and Qu, Kun},
   year = 2022,
@@ -47,21 +45,23 @@
   keywords = {Data integration,review_2604_3:postprocessing,Standards,Systems biology,Transcriptomics}
 }
 
-@article{gronbechScVAEVariationalAutoencoders2020,
-  title = {{{scVAE}}: Variational Auto-Encoders for Single-Cell Gene Expression Data},
-  shorttitle = {{{scVAE}}},
-  author = {Gr{\o}nbech, Christopher Heje and Vording, Maximillian Fornitz and Timshel, Pascal N and S{\o}nderby, Casper Kaae and Pers, Tune H and Winther, Ole},
-  year = 2020,
-  month = aug,
-  journal = {Bioinformatics},
-  volume = {36},
-  number = {16},
-  pages = {4415--4422},
-  issn = {1367-4803},
-  doi = {10.1093/bioinformatics/btaa293},
-  urldate = {2025-02-12},
-  abstract = {Models for analysing and making relevant biological inferences from massive amounts of complex single-cell transcriptomic data typically require several individual data-processing steps, each with their own set of hyperparameter choices. With deep generative models one can work directly with count data, make likelihood-based model comparison, learn a latent representation of the cells and capture more of the variability in different cell populations.We propose a novel method based on variational auto-encoders (VAEs) for analysis of single-cell RNA sequencing (scRNA-seq) data. It avoids data preprocessing by using raw count data as input and can robustly estimate the expected gene expression levels and a latent representation for each cell. We tested several count likelihood functions and a variant of the VAE that has a priori clustering in the latent space. We show for several scRNA-seq datasets that our method outperforms recently proposed scRNA-seq methods in clustering cells and that the resulting clusters reflect cell types.Our method, called scVAE, is implemented in Python using the TensorFlow machine-learning library, and it is freely available at https://github.com/scvae/scvae.Supplementary data are available at Bioinformatics online.},
-  keywords = {review_2604_3:postprocessing},
-  note = {VAE based perturbation modelling},
-  file = {/Users/adrienleroy/Zotero/storage/26SK2V63/Grønbech et al. - 2020 - scVAE variational auto-encoders for single-cell g.pdf;/Users/adrienleroy/Zotero/storage/T4YMPZB6/5838187.html}
+@article{samaranScConfluenceSinglecellDiagonal2024,
+  title = {{{scConfluence}}: Single-Cell Diagonal Integration with Regularized {{Inverse Optimal Transport}} on Weakly Connected Features},
+  shorttitle = {{{scConfluence}}},
+  author = {Samaran, Jules and Peyr{\'e}, Gabriel and Cantini, Laura},
+  year = 2024,
+  month = sep,
+  journal = {Nature Communications},
+  volume = {15},
+  number = {1},
+  pages = {7762},
+  publisher = {Nature Publishing Group},
+  issn = {2041-1723},
+  doi = {10.1038/s41467-024-51382-x},
+  urldate = {2025-08-09},
+  abstract = {The abundance of unpaired multimodal single-cell data has motivated a growing body of research into the development of diagonal integration methods. However, the state-of-the-art suffers from the loss of biological information due to feature conversion and struggles with modality-specific populations. To overcome these crucial limitations, we here introduce scConfluence, a method for single-cell diagonal integration. scConfluence combines uncoupled autoencoders on the complete set of features with regularized Inverse Optimal Transport on weakly connected features. We extensively benchmark scConfluence in several single-cell integration scenarios proving that it outperforms the state-of-the-art. We then demonstrate the biological relevance of scConfluence in three applications. We predict spatial patterns for Scgn, Synpr and Olah in scRNA-smFISH integration. We improve the classification of B cells and Monocytes in highly heterogeneous scRNA-scATAC-CyTOF integration. Finally, we reveal the joint contribution of Fezf2 and apical dendrite morphology in Intra Telencephalic neurons, based on morphological images and scRNA.},
+  copyright = {2024 The Author(s)},
+  langid = {english},
+  keywords = {Computational models,Data integration,Machine learning,RNA sequencing,Sequencing},
+  file = {/Users/adrienleroy/Zotero/storage/FDT5CIZN/Samaran et al. - 2024 - scConfluence single-cell diagonal integration wit.pdf}
 }

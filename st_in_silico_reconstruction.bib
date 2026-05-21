@@ -1,38 +1,22 @@
-@misc{
-  title = {Computational {{Optimal Transport}}},
-  author = {Peyr{\'e}, Gabriel and Cuturi, Marco},
+@article{abdelaalSpaGESpatialGene2020,
+  title = {{{SpaGE}}: {{Spatial Gene Enhancement}} Using {{scRNA-seq}}},
+  shorttitle = {{{SpaGE}}},
+  author = {Abdelaal, Tamim and Mourragui, Soufiane and Mahfouz, Ahmed and Reinders, Marcel J T},
   year = 2020,
-  month = mar,
-  number = {arXiv:1803.00567},
-  eprint = {1803.00567},
-  primaryclass = {stat},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.1803.00567},
-  urldate = {2025-08-09},
-  abstract = {Optimal transport (OT) theory can be informally described using the words of the French mathematician Gaspard Monge (1746-1818): A worker with a shovel in hand has to move a large pile of sand lying on a construction site. The goal of the worker is to erect with all that sand a target pile with a prescribed shape (for example, that of a giant sand castle). Naturally, the worker wishes to minimize her total effort, quantified for instance as the total distance or time spent carrying shovelfuls of sand. Mathematicians interested in OT cast that problem as that of comparing two probability distributions, two different piles of sand of the same volume. They consider all of the many possible ways to morph, transport or reshape the first pile into the second, and associate a "global" cost to every such transport, using the "local" consideration of how much it costs to move a grain of sand from one place to another. Recent years have witnessed the spread of OT in several fields, thanks to the emergence of approximate solvers that can scale to sizes and dimensions that are relevant to data sciences. Thanks to this newfound scalability, OT is being increasingly used to unlock various problems in imaging sciences (such as color or texture processing), computer vision and graphics (for shape manipulation) or machine learning (for regression, classification and density fitting). This short book reviews OT with a bias toward numerical methods and their applications in data sciences, and sheds lights on the theoretical properties of OT that make it particularly useful for some of these applications.},
-  archiveprefix = {arXiv},
-  keywords = {Statistics - Machine Learning},
-  note = {Comment: new version with corrected typo in Eq. 4.43 and 4.44 (minus sign in front of f, g now changed to +) a few more corrected typos},
-  file = {/Users/adrienleroy/Zotero/storage/XR3GZPJ9/Peyré et Cuturi - 2020 - Computational Optimal Transport.pdf;/Users/adrienleroy/Zotero/storage/GC4T2Y4E/1803.html}
-}
-
-@article{
-  title = {A Network Regularized Linear Model to Infer Spatial Expression Pattern for Single Cell},
-  author = {Gu, Chaohao and Chen, Hu and Liu, Zhandong},
-  year = 2025,
-  month = dec,
-  journal = {eLife},
-  volume = {14},
-  publisher = {eLife Sciences Publications Limited},
-  doi = {10.7554/eLife.105589.3},
+  month = oct,
+  journal = {Nucleic Acids Research},
+  volume = {48},
+  number = {18},
+  pages = {e107},
+  issn = {0305-1048},
+  doi = {10.1093/nar/gkaa740},
   urldate = {2026-04-24},
-  abstract = {Spatial transcriptomics, situated at the intersection of genomics and spatial biology, offers profound insights into the spatial organization of gene expression within tissues. However, its potential has been constrained by either limited resolution or throughput. While single-cell RNA-seq allows for in-depth profiling of cellular gene expression, the crucial spatial information is often sacrificed during sample collection. In a groundbreaking fusion of these two techniques, our research introduces the glmSMA computational algorithm. This innovative approach aims to predict cell locations by integrating scRNA-seq data with spatial-omics reference atlases. The essence of glmSMA lies in formulating cell mapping as a convex problem, strategically minimizing differences between cellular expression profiles and location expression profiles through L1 and Generalized L2 regularization. Our algorithm has undergone rigorous testing across diverse tissues, including mouse brain, drosophila embryo, and human PDAC samples. The compelling results validate glmSMA's efficacy, demonstrating its capability to faithfully recapitulate spatial gene expression and anatomical structures. This marks a significant stride forward in overcoming the limitations of existing spatial transcriptomic techniques.},
-  langid = {english},
+  abstract = {Single-cell technologies are emerging fast due to their ability to unravel the heterogeneity of biological systems. While scRNA-seq is a powerful tool that measures whole-transcriptome expression of single cells, it lacks their spatial localization. Novel spatial transcriptomics methods do retain cells spatial information but some methods can only measure tens to hundreds of transcripts. To resolve this discrepancy, we developed SpaGE, a method that integrates spatial and scRNA-seq datasets to predict whole-transcriptome expressions in their spatial configuration. Using five dataset-pairs, SpaGE outperformed previously published methods and showed scalability to large datasets. Moreover, SpaGE predicted new spatial gene patterns that are confirmed independently using in situ hybridization data from the Allen Mouse Brain Atlas.},
   keywords = {review_2604_3:in-silico-reconstruction},
-  file = {/Users/adrienleroy/Zotero/storage/3SP2JC5I/Gu et al. - 2025 - A network regularized linear model to infer spatial expression pattern for single cell.pdf}
+  file = {/Users/adrienleroy/Zotero/storage/LPI355GC/Abdelaal et al. - 2020 - SpaGE Spatial Gene Enhancement using scRNA-seq.pdf;/Users/adrienleroy/Zotero/storage/FNWITR3J/gkaa740.html}
 }
 
-@article{
+@article{biancalaniDeepLearningAlignment2021,
   title = {Deep Learning and Alignment of Spatially Resolved Single-Cell Transcriptomes with {{Tangram}}},
   author = {Biancalani, Tommaso and Scalia, Gabriele and Buffoni, Lorenzo and Avasthi, Raghav and Lu, Ziqing and Sanger, Aman and Tokcan, Neriman and Vanderburg, Charles R. and Segerstolpe, {\AA}sa and Zhang, Meng and {Avraham-Davidi}, Inbal and Vickovic, Sanja and Nitzan, Mor and Ma, Sai and Subramanian, Ayshwarya and Lipinski, Michal and Buenrostro, Jason and Brown, Nik Bear and Fanelli, Duccio and Zhuang, Xiaowei and Macosko, Evan Z. and Regev, Aviv},
   year = 2021,
@@ -52,45 +36,59 @@
   file = {/Users/adrienleroy/Zotero/storage/ILV23MY2/Biancalani et al. - 2021 - Deep learning and alignment of spatially resolved single-cell transcriptomes with Tangram.pdf}
 }
 
-@article{
-  title = {{{SpaGE}}: {{Spatial Gene Enhancement}} Using {{scRNA-seq}}},
-  shorttitle = {{{SpaGE}}},
-  author = {Abdelaal, Tamim and Mourragui, Soufiane and Mahfouz, Ahmed and Reinders, Marcel J T},
-  year = 2020,
-  month = oct,
-  journal = {Nucleic Acids Research},
-  volume = {48},
-  number = {18},
-  pages = {e107},
-  issn = {0305-1048},
-  doi = {10.1093/nar/gkaa740},
-  urldate = {2026-04-24},
-  abstract = {Single-cell technologies are emerging fast due to their ability to unravel the heterogeneity of biological systems. While scRNA-seq is a powerful tool that measures whole-transcriptome expression of single cells, it lacks their spatial localization. Novel spatial transcriptomics methods do retain cells spatial information but some methods can only measure tens to hundreds of transcripts. To resolve this discrepancy, we developed SpaGE, a method that integrates spatial and scRNA-seq datasets to predict whole-transcriptome expressions in their spatial configuration. Using five dataset-pairs, SpaGE outperformed previously published methods and showed scalability to large datasets. Moreover, SpaGE predicted new spatial gene patterns that are confirmed independently using in situ hybridization data from the Allen Mouse Brain Atlas.},
-  keywords = {review_2604_3:in-silico-reconstruction},
-  file = {/Users/adrienleroy/Zotero/storage/LPI355GC/Abdelaal et al. - 2020 - SpaGE Spatial Gene Enhancement using scRNA-seq.pdf;/Users/adrienleroy/Zotero/storage/FNWITR3J/gkaa740.html}
-}
-
-@article{
-  title = {Leveraging Spatial Transcriptomics Data to Recover Cell Locations in Single-Cell {{RNA-seq}} with {{CeLEry}}},
-  author = {Zhang, Qihuang and Jiang, Shunzhou and Schroeder, Amelia and Hu, Jian and Li, Kejie and Zhang, Baohong and Dai, David and Lee, Edward B. and Xiao, Rui and Li, Mingyao},
-  year = 2023,
-  month = jul,
-  journal = {Nature Communications},
+@article{guNetworkRegularizedLinear2025,
+  title = {A Network Regularized Linear Model to Infer Spatial Expression Pattern for Single Cell},
+  author = {Gu, Chaohao and Chen, Hu and Liu, Zhandong},
+  year = 2025,
+  month = dec,
+  journal = {eLife},
   volume = {14},
-  number = {1},
-  pages = {4050},
-  publisher = {Nature Publishing Group},
-  issn = {2041-1723},
-  doi = {10.1038/s41467-023-39895-3},
+  publisher = {eLife Sciences Publications Limited},
+  doi = {10.7554/eLife.105589.3},
   urldate = {2026-04-24},
-  abstract = {Single-cell RNA sequencing (scRNA-seq) has revolutionized our understanding of cellular heterogeneity in health and disease. However, the lack of physical relationships among dissociated cells has limited its applications. To address this issue, we present CeLEry (Cell Location recovEry), a supervised deep learning algorithm that leverages gene expression and spatial location relationships learned from spatial transcriptomics to recover the spatial origins of cells in scRNA-seq. CeLEry has an optional data augmentation procedure via a variational autoencoder, which improves the method's robustness and allows it to overcome noise in scRNA-seq data. We show that CeLEry can infer the spatial origins of cells in scRNA-seq at multiple levels, including 2D location and spatial domain of a cell, while also providing uncertainty estimates for the recovered locations. Our comprehensive benchmarking evaluations on multiple datasets generated from brain and cancer tissues using Visium, MERSCOPE, MERFISH, and Xenium demonstrate that CeLEry can reliably recover the spatial location information for cells using scRNA-seq data.},
-  copyright = {2023 The Author(s)},
+  abstract = {Spatial transcriptomics, situated at the intersection of genomics and spatial biology, offers profound insights into the spatial organization of gene expression within tissues. However, its potential has been constrained by either limited resolution or throughput. While single-cell RNA-seq allows for in-depth profiling of cellular gene expression, the crucial spatial information is often sacrificed during sample collection. In a groundbreaking fusion of these two techniques, our research introduces the glmSMA computational algorithm. This innovative approach aims to predict cell locations by integrating scRNA-seq data with spatial-omics reference atlases. The essence of glmSMA lies in formulating cell mapping as a convex problem, strategically minimizing differences between cellular expression profiles and location expression profiles through L1 and Generalized L2 regularization. Our algorithm has undergone rigorous testing across diverse tissues, including mouse brain, drosophila embryo, and human PDAC samples. The compelling results validate glmSMA's efficacy, demonstrating its capability to faithfully recapitulate spatial gene expression and anatomical structures. This marks a significant stride forward in overcoming the limitations of existing spatial transcriptomic techniques.},
   langid = {english},
-  keywords = {Computational science,Machine learning,review_2604_3:in-silico-reconstruction,Software,Statistical methods},
-  file = {/Users/adrienleroy/Zotero/storage/R2MWHLS6/Zhang et al. - 2023 - Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry.pdf}
+  keywords = {review_2604_3:in-silico-reconstruction},
+  file = {/Users/adrienleroy/Zotero/storage/3SP2JC5I/Gu et al. - 2025 - A network regularized linear model to infer spatial expression pattern for single cell.pdf}
 }
 
-@article{
+@article{halpernSinglecellSpatialReconstruction2017,
+  title = {Single-Cell Spatial Reconstruction Reveals Global Division of Labour in the Mammalian Liver},
+  author = {Halpern, Keren Bahar and Shenhav, Rom and {Matcovitch-Natan}, Orit and Toth, Beata and Lemze, Doron and Golan, Matan and Massasa, Efi E. and Baydatch, Shaked and Landen, Shanie and Moor, Andreas E. and Brandis, Alexander and Giladi, Amir and Avihail, Avigail Stokar and David, Eyal and Amit, Ido and Itzkovitz, Shalev},
+  year = 2017,
+  month = feb,
+  journal = {Nature},
+  volume = {542},
+  number = {7641},
+  pages = {352--356},
+  issn = {1476-4687},
+  doi = {10.1038/nature21065},
+  abstract = {The mammalian liver consists of hexagon-shaped lobules that are radially polarized by blood flow and morphogens. Key liver genes have been shown to be differentially expressed along the lobule axis, a phenomenon termed zonation, but a detailed genome-wide reconstruction of this spatial division of labour has not been achieved. Here we measure the entire transcriptome of thousands of mouse liver cells and infer their lobule coordinates on the basis of a panel of zonated landmark genes, characterized with single-molecule fluorescence in situ hybridization. Using this approach, we obtain the zonation profiles of all liver genes with high spatial resolution. We find that around 50\% of liver genes are significantly zonated and uncover abundant non-monotonic profiles that peak at the mid-lobule layers. These include a spatial order of bile acid biosynthesis enzymes that matches their position in the enzymatic cascade. Our approach can facilitate the reconstruction of similar spatial genomic blueprints for other mammalian organs.},
+  langid = {english},
+  pmcid = {PMC5321580},
+  pmid = {28166538},
+  keywords = {Animals,Bile Acids and Salts,Gene Expression Profiling,Genome,Hepatocytes,In Situ Hybridization Fluorescence,Liver,Male,Mice,Mice Inbred C57BL,review_2604_3:in-silico-reconstruction,Sequence Analysis RNA,Single Molecule Imaging,Single-Cell Analysis,Transcriptome}
+}
+
+@misc{peyreComputationalOptimalTransport2020,
+  title = {Computational {{Optimal Transport}}},
+  author = {Peyr{\'e}, Gabriel and Cuturi, Marco},
+  year = 2020,
+  month = mar,
+  number = {arXiv:1803.00567},
+  eprint = {1803.00567},
+  primaryclass = {stat},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.1803.00567},
+  urldate = {2025-08-09},
+  abstract = {Optimal transport (OT) theory can be informally described using the words of the French mathematician Gaspard Monge (1746-1818): A worker with a shovel in hand has to move a large pile of sand lying on a construction site. The goal of the worker is to erect with all that sand a target pile with a prescribed shape (for example, that of a giant sand castle). Naturally, the worker wishes to minimize her total effort, quantified for instance as the total distance or time spent carrying shovelfuls of sand. Mathematicians interested in OT cast that problem as that of comparing two probability distributions, two different piles of sand of the same volume. They consider all of the many possible ways to morph, transport or reshape the first pile into the second, and associate a "global" cost to every such transport, using the "local" consideration of how much it costs to move a grain of sand from one place to another. Recent years have witnessed the spread of OT in several fields, thanks to the emergence of approximate solvers that can scale to sizes and dimensions that are relevant to data sciences. Thanks to this newfound scalability, OT is being increasingly used to unlock various problems in imaging sciences (such as color or texture processing), computer vision and graphics (for shape manipulation) or machine learning (for regression, classification and density fitting). This short book reviews OT with a bias toward numerical methods and their applications in data sciences, and sheds lights on the theoretical properties of OT that make it particularly useful for some of these applications.},
+  archiveprefix = {arXiv},
+  keywords = {Statistics - Machine Learning},
+  note = {Comment: new version with corrected typo in Eq. 4.43 and 4.44 (minus sign in front of f, g now changed to +) a few more corrected typos},
+  file = {/Users/adrienleroy/Zotero/storage/XR3GZPJ9/Peyré et Cuturi - 2020 - Computational Optimal Transport.pdf;/Users/adrienleroy/Zotero/storage/GC4T2Y4E/1803.html}
+}
+
+@article{vahidHighresolutionAlignmentSinglecell2023,
   title = {High-Resolution Alignment of Single-Cell and Spatial Transcriptomes with {{CytoSPACE}}},
   author = {Vahid, Milad R. and Brown, Erin L. and Steen, Chlo{\'e} B. and Zhang, Wubing and Jeon, Hyun Soo and Kang, Minji and Gentles, Andrew J. and Newman, Aaron M.},
   year = 2023,
@@ -110,40 +108,7 @@
   file = {/Users/adrienleroy/Zotero/storage/TTX2U8MD/Vahid et al. - 2023 - High-resolution alignment of single-cell and spatial transcriptomes with CytoSPACE.pdf}
 }
 
-@article{
-  title = {Single-Cell Spatial Reconstruction Reveals Global Division of Labour in the Mammalian Liver},
-  author = {Halpern, Keren Bahar and Shenhav, Rom and {Matcovitch-Natan}, Orit and Toth, Beata and Lemze, Doron and Golan, Matan and Massasa, Efi E. and Baydatch, Shaked and Landen, Shanie and Moor, Andreas E. and Brandis, Alexander and Giladi, Amir and Avihail, Avigail Stokar and David, Eyal and Amit, Ido and Itzkovitz, Shalev},
-  year = 2017,
-  month = feb,
-  journal = {Nature},
-  volume = {542},
-  number = {7641},
-  pages = {352--356},
-  issn = {1476-4687},
-  doi = {10.1038/nature21065},
-  abstract = {The mammalian liver consists of hexagon-shaped lobules that are radially polarized by blood flow and morphogens. Key liver genes have been shown to be differentially expressed along the lobule axis, a phenomenon termed zonation, but a detailed genome-wide reconstruction of this spatial division of labour has not been achieved. Here we measure the entire transcriptome of thousands of mouse liver cells and infer their lobule coordinates on the basis of a panel of zonated landmark genes, characterized with single-molecule fluorescence in situ hybridization. Using this approach, we obtain the zonation profiles of all liver genes with high spatial resolution. We find that around 50\% of liver genes are significantly zonated and uncover abundant non-monotonic profiles that peak at the mid-lobule layers. These include a spatial order of bile acid biosynthesis enzymes that matches their position in the enzymatic cascade. Our approach can facilitate the reconstruction of similar spatial genomic blueprints for other mammalian organs.},
-  langid = {english},
-  pmcid = {PMC5321580},
-  pmid = {28166538},
-  keywords = {Animals,Bile Acids and Salts,Gene Expression Profiling,Genome,Hepatocytes,In Situ Hybridization Fluorescence,Liver,Male,Mice,Mice Inbred C57BL,review_2604_3:in-silico-reconstruction,Sequence Analysis RNA,Single Molecule Imaging,Single-Cell Analysis,Transcriptome}
-}
-
-@article{
-  title = {Identification of Spatially Associated Subpopulations by Combining {{scRNAseq}} and Sequential Fluorescence in Situ Hybridization Data},
-  author = {Zhu, Qian and Shah, Sheel and Dries, Ruben and Cai, Long and Yuan, Guo-Cheng},
-  year = 2018,
-  month = oct,
-  journal = {Nature Biotechnology},
-  issn = {1546-1696},
-  doi = {10.1038/nbt.4260},
-  abstract = {How intrinsic gene-regulatory networks interact with a cell's spatial environment to define its identity remains poorly understood. We developed an approach to distinguish between intrinsic and extrinsic effects on global gene expression by integrating analysis of sequencing-based and imaging-based single-cell transcriptomic profiles, using cross-platform cell type mapping combined with a hidden Markov random field model. We applied this approach to dissect the cell-type- and spatial-domain-associated heterogeneity in the mouse visual cortex region. Our analysis identified distinct spatially associated, cell-type-independent signatures in the glutamatergic and astrocyte cell compartments. Using these signatures to analyze single-cell RNA sequencing data, we identified previously unknown spatially associated subpopulations, which were validated by comparison with anatomical structures and Allen Brain Atlas images.},
-  langid = {english},
-  pmcid = {PMC6488461},
-  pmid = {30371680},
-  keywords = {review_2604_3:in-silico-reconstruction}
-}
-
-@misc{
+@misc{yuTissueReassemblyGenerative2025,
   title = {Tissue {{Reassembly}} with {{Generative AI}}},
   author = {Yu, Tingyang and Ekbote, Chanakya and Morozov, Nikita and Herrera, Antonio and Fan, Jiashuo and Mantes, Albert Dominguez and Novello, Salvatore and Lashuel, Hilal and Frossard, Pascal and {d'Ascoli}, St{\'e}phane and La Manno, Gioele and Brbi{\'c}, Maria},
   year = 2025,
@@ -156,4 +121,39 @@
   copyright = {http://creativecommons.org/licenses/by-nc/4.0/},
   langid = {english},
   file = {/Users/adrienleroy/Zotero/storage/S3BZFBJF/Yu et al. - 2025 - Tissue Reassembly with Generative AI.pdf}
+}
+
+@article{zhangLeveragingSpatialTranscriptomics2023,
+  title = {Leveraging Spatial Transcriptomics Data to Recover Cell Locations in Single-Cell {{RNA-seq}} with {{CeLEry}}},
+  author = {Zhang, Qihuang and Jiang, Shunzhou and Schroeder, Amelia and Hu, Jian and Li, Kejie and Zhang, Baohong and Dai, David and Lee, Edward B. and Xiao, Rui and Li, Mingyao},
+  year = 2023,
+  month = jul,
+  journal = {Nature Communications},
+  volume = {14},
+  number = {1},
+  pages = {4050},
+  publisher = {Nature Publishing Group},
+  issn = {2041-1723},
+  doi = {10.1038/s41467-023-39895-3},
+  urldate = {2026-04-24},
+  abstract = {Single-cell RNA sequencing (scRNA-seq) has revolutionized our understanding of cellular heterogeneity in health and disease. However, the lack of physical relationships among dissociated cells has limited its applications. To address this issue, we present CeLEry (Cell Location recovEry), a supervised deep learning algorithm that leverages gene expression and spatial location relationships learned from spatial transcriptomics to recover the spatial origins of cells in scRNA-seq. CeLEry has an optional data augmentation procedure via a variational autoencoder, which improves the method's robustness and allows it to overcome noise in scRNA-seq data. We show that CeLEry can infer the spatial origins of cells in scRNA-seq at multiple levels, including 2D location and spatial domain of a cell, while also providing uncertainty estimates for the recovered locations. Our comprehensive benchmarking evaluations on multiple datasets generated from brain and cancer tissues using Visium, MERSCOPE, MERFISH, and Xenium demonstrate that CeLEry can reliably recover the spatial location information for cells using scRNA-seq data.},
+  copyright = {2023 The Author(s)},
+  langid = {english},
+  keywords = {Computational science,Machine learning,review_2604_3:in-silico-reconstruction,Software,Statistical methods},
+  file = {/Users/adrienleroy/Zotero/storage/R2MWHLS6/Zhang et al. - 2023 - Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry.pdf}
+}
+
+@article{zhuIdentificationSpatiallyAssociated2018,
+  title = {Identification of Spatially Associated Subpopulations by Combining {{scRNAseq}} and Sequential Fluorescence in Situ Hybridization Data},
+  author = {Zhu, Qian and Shah, Sheel and Dries, Ruben and Cai, Long and Yuan, Guo-Cheng},
+  year = 2018,
+  month = oct,
+  journal = {Nature Biotechnology},
+  issn = {1546-1696},
+  doi = {10.1038/nbt.4260},
+  abstract = {How intrinsic gene-regulatory networks interact with a cell's spatial environment to define its identity remains poorly understood. We developed an approach to distinguish between intrinsic and extrinsic effects on global gene expression by integrating analysis of sequencing-based and imaging-based single-cell transcriptomic profiles, using cross-platform cell type mapping combined with a hidden Markov random field model. We applied this approach to dissect the cell-type- and spatial-domain-associated heterogeneity in the mouse visual cortex region. Our analysis identified distinct spatially associated, cell-type-independent signatures in the glutamatergic and astrocyte cell compartments. Using these signatures to analyze single-cell RNA sequencing data, we identified previously unknown spatially associated subpopulations, which were validated by comparison with anatomical structures and Allen Brain Atlas images.},
+  langid = {english},
+  pmcid = {PMC6488461},
+  pmid = {30371680},
+  keywords = {review_2604_3:in-silico-reconstruction}
 }

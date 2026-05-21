@@ -1,326 +1,4 @@
-@article{
-  title = {Probabilistic Weather Forecasting with Machine Learning},
-  author = {Price, Ilan and {Sanchez-Gonzalez}, Alvaro and Alet, Ferran and Andersson, Tom R. and {El-Kadi}, Andrew and Masters, Dominic and Ewalds, Timo and Stott, Jacklynn and Mohamed, Shakir and Battaglia, Peter and Lam, Remi and Willson, Matthew},
-  year = 2024,
-  month = dec,
-  journal = {Nature},
-  pages = {1--7},
-  publisher = {Nature Publishing Group},
-  issn = {1476-4687},
-  doi = {10.1038/s41586-024-08252-9},
-  urldate = {2024-12-10},
-  abstract = {Weather forecasts are fundamentally uncertain, so predicting the range of probable weather scenarios is crucial for important decisions, from warning the public about hazardous weather to planning renewable energy use. Traditionally, weather forecasts have been based on numerical weather prediction (NWP)1, which relies on physics-based simulations of the atmosphere. Recent advances in machine learning (ML)-based weather prediction (MLWP) have produced ML-based models with less forecast error than single NWP simulations2,3. However, these advances have focused primarily on single, deterministic forecasts that fail to represent uncertainty and estimate risk. Overall, MLWP has remained less accurate and reliable than state-of-the-art NWP ensemble forecasts. Here we introduce GenCast, a probabilistic weather model with greater skill and speed than the top operational medium-range weather forecast in the world, ENS, the ensemble forecast of the European Centre for Medium-Range Weather~Forecasts4. GenCast is an ML weather prediction method, trained on decades of reanalysis data. GenCast generates an ensemble of stochastic 15-day global forecasts, at 12-h steps and 0.25{$^\circ$} latitude--longitude resolution, for more than 80 surface and atmospheric variables, in 8\,min. It has greater skill than ENS on 97.2\% of 1,320 targets we evaluated and better predicts extreme weather, tropical cyclone tracks and wind power production. This work helps open the next chapter in operational weather forecasting, in which crucial weather-dependent decisions are made more accurately and efficiently.},
-  copyright = {2024 The Author(s)},
-  langid = {english},
-  keywords = {Atmospheric dynamics,Computer science,Natural hazards},
-  note = {use of neural networks for high search space and complex spatio temporal dynamics},
-  file = {/Users/adrienleroy/Zotero/storage/NSELCTSJ/Price et al. - 2024 - Probabilistic weather forecasting with machine lea.pdf}
-}
-
-@article{
-  title = {Learning Single-Cell Perturbation Responses Using Neural Optimal Transport},
-  author = {Bunne, Charlotte and Stark, Stefan G. and Gut, Gabriele and {del Castillo}, Jacobo Sarabia and Levesque, Mitch and Lehmann, Kjong-Van and Pelkmans, Lucas and Krause, Andreas and R{\"a}tsch, Gunnar},
-  year = 2023,
-  month = nov,
-  journal = {Nature Methods},
-  volume = {20},
-  number = {11},
-  pages = {1759--1768},
-  publisher = {Nature Publishing Group},
-  issn = {1548-7105},
-  doi = {10.1038/s41592-023-01969-x},
-  urldate = {2024-12-16},
-  abstract = {Understanding and predicting molecular responses in single cells upon chemical, genetic or mechanical perturbations is a core question in biology. Obtaining single-cell measurements typically requires the cells to be destroyed. This makes learning heterogeneous perturbation responses challenging as we only observe unpaired distributions of perturbed or non-perturbed cells. Here we leverage the theory of optimal transport and the recent advent of input convex neural architectures to present CellOT, a framework for learning the response of individual cells to a given perturbation by mapping these unpaired distributions. CellOT outperforms current methods at predicting single-cell drug responses, as profiled by scRNA-seq and a multiplexed protein-imaging technology. Further, we illustrate that CellOT generalizes well on unseen settings by (1) predicting the scRNA-seq responses of holdout patients with lupus exposed to interferon-{$\beta$} and patients with glioblastoma to panobinostat; (2) inferring lipopolysaccharide responses across different species; and (3) modeling the hematopoietic developmental trajectories of different subpopulations.},
-  copyright = {2023 The Author(s)},
-  langid = {english},
-  keywords = {Computational biology and bioinformatics,deep_learning,Machine learning,Molecular biology,optimal_transport,review_2604_5:perturb},
-  note = {using optiaml transport to predict the effect of perturbation},
-  file = {/Users/adrienleroy/Zotero/storage/U4DQ34E4/Bunne et al. - 2023 - Learning single-cell perturbation responses using .pdf}
-}
-
-@article{
-  title = {Machine Learning Interpretable Models of Cell Mechanics from Protein Images},
-  author = {Schmitt, Matthew S. and Colen, Jonathan and Sala, Stefano and Devany, John and Seetharaman, Shailaja and Caillier, Alexia and Gardel, Margaret L. and Oakes, Patrick W. and Vitelli, Vincenzo},
-  year = 2024,
-  month = jan,
-  journal = {Cell},
-  volume = {187},
-  number = {2},
-  pages = {481-494.e24},
-  publisher = {Elsevier},
-  issn = {0092-8674, 1097-4172},
-  doi = {10.1016/j.cell.2023.11.041},
-  urldate = {2025-01-20},
-  abstract = {{$<$}h2{$>$}Summary{$<$}/h2{$><$}p{$>$}Cellular form and function emerge from complex mechanochemical systems within the cytoplasm. Currently, no systematic strategy exists to infer large-scale physical properties of a cell from its molecular components. This is an obstacle to understanding processes such as cell adhesion and migration. Here, we develop a data-driven modeling pipeline to learn the mechanical behavior of adherent cells. We first train neural networks to predict cellular forces from images of cytoskeletal proteins. Strikingly, experimental images of a single focal adhesion (FA) protein, such as zyxin, are sufficient to predict forces and can generalize to unseen biological regimes. Using this observation, we develop two approaches---one constrained by physics and the other agnostic---to construct data-driven continuum models of cellular forces. Both reveal how cellular forces are encoded by two distinct length scales. Beyond adherent cell mechanics, our work serves as a case study for integrating neural networks into predictive models for cell biology.{$<$}/p{$>$}},
-  langid = {english},
-  pmid = {38194965},
-  note = {predicting stress from cytoskeletal proteins as well},
-  file = {/Users/adrienleroy/Zotero/storage/PN8H8SBN/Schmitt et al. - 2024 - Machine learning interpretable models of cell mech.pdf}
-}
-
-@misc{
-  title = {Poissonian Cellular {{Potts}} Models Reveal Nonequilibrium Kinetics of Cell Sorting},
-  author = {Belousov, Roman and Savino, Sabrina and Moghe, Prachiti and Hiiragi, Takashi and Rondoni, Lamberto and Erzberger, Anna},
-  year = 2024,
-  month = apr,
-  number = {arXiv:2306.04443},
-  eprint = {2306.04443},
-  primaryclass = {cond-mat},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2306.04443},
-  urldate = {2025-02-11},
-  abstract = {Cellular Potts models are broadly applied across developmental biology and cancer research. We overcome limitations of the traditional approach, which reinterprets a modified Metropolis sampling as ad hoc dynamics, by introducing a physical timescale through Poissonian kinetics and by applying principles of stochastic thermodynamics to separate thermal and relaxation effects from athermal noise and nonconservative forces. Our method accurately describes cell-sorting dynamics in mouse-embryo development and identifies the distinct contributions of nonequilibrium processes, e.g. cell growth and active fluctuations.},
-  archiveprefix = {arXiv},
-  keywords = {Condensed Matter - Statistical Mechanics,Physics - Biological Physics,review_2604_5:vertex-cpm},
-  note = {adding the notion of time to CPMs
-\par
-Comment: 7 Figures},
-  file = {/Users/adrienleroy/Zotero/storage/2AZI4WXH/Belousov et al. - 2024 - Poissonian cellular Potts models reveal nonequilib.pdf;/Users/adrienleroy/Zotero/storage/6IBQH9Q8/2306.html}
-}
-
-@misc{
-  title = {Learning a Conserved Mechanism for Early Neuroectoderm Morphogenesis},
-  author = {Lefebvre, Matthew and Colen, Jonathan and Claussen, Nikolas and Brauns, Fridtjof and Raich, Marion and Mitchell, Noah and Fruchart, Michel and Vitelli, Vincenzo and Streichan, Sebastian J.},
-  year = 2024,
-  month = may,
-  number = {arXiv:2405.18382},
-  eprint = {2405.18382},
-  primaryclass = {physics},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2405.18382},
-  urldate = {2025-02-12},
-  abstract = {Morphogenesis is the process whereby the body of an organism develops its target shape. The morphogen BMP is known to play a conserved role across bilaterian organisms in determining the dorsoventral (DV) axis. Yet, how BMP governs the spatio-temporal dynamics of cytoskeletal proteins driving morphogenetic flow remains an open question. Here, we use machine learning to mine a morphodynamic atlas of Drosophila development, and construct a mathematical model capable of predicting the coupled dynamics of myosin, E-cadherin, and morphogenetic flow. Mutant analysis shows that BMP sets the initial condition of this dynamical system according to the following signaling cascade: BMP establishes DV pair-rule-gene patterns that set-up an E-cadherin gradient which in turn creates a myosin gradient in the opposite direction through mechanochemical feedbacks. Using neural tube organoids, we argue that BMP, and the signaling cascade it triggers, prime the conserved dynamics of neuroectoderm morphogenesis from fly to humans.},
-  archiveprefix = {arXiv},
-  keywords = {Physics - Biological Physics},
-  note = {Comment: Main text: 22 pages, 7 figures. Supplement: 18 pages, 10 figures
-\par
-Here we use the distribution of cytoskeletal protein to predict flow. This is in line with the research trying to link gene expression to dynamic morphogenetic movements},
-  file = {/Users/adrienleroy/Zotero/storage/BPINPWTQ/Lefebvre et al. - 2024 - Learning a conserved mechanism for early neuroecto.pdf;/Users/adrienleroy/Zotero/storage/TJD85JIM/2405.html}
-}
-
-@misc{
-  title = {Deep {{Neural Cellular Potts Models}}},
-  author = {Minartz, Koen and {d'Hondt}, Tim and Hillmann, Leon and Starru{\ss}, J{\"o}rn and Brusch, Lutz and Menkovski, Vlado},
-  year = 2025,
-  month = feb,
-  number = {arXiv:2502.02129},
-  eprint = {2502.02129},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2502.02129},
-  urldate = {2025-05-19},
-  abstract = {The cellular Potts model (CPM) is a powerful computational method for simulating collective spatiotemporal dynamics of biological cells. To drive the dynamics, CPMs rely on physics-inspired Hamiltonians. However, as first principles remain elusive in biology, these Hamiltonians only approximate the full complexity of real multicellular systems. To address this limitation, we propose NeuralCPM, a more expressive cellular Potts model that can be trained directly on observational data. At the core of NeuralCPM lies the Neural Hamiltonian, a neural network architecture that respects universal symmetries in collective cellular dynamics. Moreover, this approach enables seamless integration of domain knowledge by combining known biological mechanisms and the expressive Neural Hamiltonian into a hybrid model. Our evaluation with synthetic and real-world multicellular systems demonstrates that NeuralCPM is able to model cellular dynamics that cannot be accounted for by traditional analytical Hamiltonians.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Machine Learning,CPM,deep-learning,Quantitative Biology - Quantitative Methods,review_2604_5:hybrid},
-  note = {Neural network version of CPM. COuld be the baseline for interpretable models of morphogenesis},
-  file = {/Users/adrienleroy/Zotero/storage/CZWJ5UDH/Minartz et al. - 2025 - Deep Neural Cellular Potts Models.pdf}
-}
-
-@misc{
-  title = {In-Silico Biological Discovery with Large Perturbation Models},
-  author = {Miladinovic, Djordje and H{\"o}ppe, Tobias and Chevalley, Mathieu and Georgiou, Andreas and Stuart, Lachlan and Mehrjou, Arash and Bantscheff, Marcus and Sch{\"o}lkopf, Bernhard and Schwab, Patrick},
-  year = 2025,
-  month = mar,
-  number = {arXiv:2503.23535},
-  eprint = {2503.23535},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2503.23535},
-  urldate = {2025-05-29},
-  abstract = {Data generated in perturbation experiments link perturbations to the changes they elicit and therefore contain information relevant to numerous biological discovery tasks -- from understanding the relationships between biological entities to developing therapeutics. However, these data encompass diverse perturbations and readouts, and the complex dependence of experimental outcomes on their biological context makes it challenging to integrate insights across experiments. Here, we present the Large Perturbation Model (LPM), a deep-learning model that integrates multiple, heterogeneous perturbation experiments by representing perturbation, readout, and context as disentangled dimensions. LPM outperforms existing methods across multiple biological discovery tasks, including in predicting post-perturbation transcriptomes of unseen experiments, identifying shared molecular mechanisms of action between chemical and genetic perturbations, and facilitating the inference of gene-gene interaction networks.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Machine Learning,Quantitative Biology - Quantitative Methods,Statistics - Methodology},
-  note = {On the use of perturbation modelling to predict the effect of optogentics for instance},
-  file = {/Users/adrienleroy/Zotero/storage/87TLMN6P/Miladinovic et al. - 2025 - In-silico biological discovery with large perturba.pdf;/Users/adrienleroy/Zotero/storage/DC2UUV78/2503.html}
-}
-
-@misc{
-  title = {Multicell-{{Fold}}: Geometric Learning in Folding Multicellular Life},
-  shorttitle = {Multicell-{{Fold}}},
-  author = {Yang, Haiqian and Nguyen, Anh Q. and Bi, Dapeng and Buehler, Markus J. and Guo, Ming},
-  year = 2024,
-  month = jul,
-  number = {arXiv:2407.07055},
-  eprint = {2407.07055},
-  primaryclass = {cond-mat},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2407.07055},
-  urldate = {2025-07-18},
-  abstract = {During developmental processes such as embryogenesis, how a group of cells fold into specific structures, is a central question in biology that defines how living organisms form. Establishing tissue-level morphology critically relies on how every single cell decides to position itself relative to its neighboring cells. Despite its importance, it remains a major challenge to understand and predict the behavior of every cell within the living tissue over time during such intricate processes. To tackle this question, we propose a geometric deep learning model that can predict multicellular folding and embryogenesis, accurately capturing the highly convoluted spatial interactions among cells. We demonstrate that multicellular data can be represented with both granular and foam-like physical pictures through a unified graph data structure, considering both cellular interactions and cell junction networks. We successfully use our model to achieve two important tasks, interpretable 4-D morphological sequence alignment, and predicting local cell rearrangements before they occur at single-cell resolution. Furthermore, using an activation map and ablation studies, we demonstrate that cell geometries and cell junction networks together regulate local cell rearrangement which is critical for embryo morphogenesis. This approach provides a novel paradigm to study morphogenesis, highlighting a unified data structure and harnessing the power of geometric deep learning to accurately model the mechanisms and behaviors of cells during development. It offers a pathway toward creating a unified dynamic morphological atlas for a variety of developmental processes such as embryogenesis.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Machine Learning,Condensed Matter - Soft Condensed Matter,Physics - Biological Physics,review_2604_5:physics-ml},
-  note = {unified graph structure and modelling of the behvaiour of multicellular tissue},
-  file = {/Users/adrienleroy/Zotero/storage/4ZAHP2UB/s41592-025-02983-x.pdf;/Users/adrienleroy/Zotero/storage/CKQGCEPV/2407.07055v2.pdf;/Users/adrienleroy/Zotero/storage/WK6ULPGP/Yang et al. - 2024 - Multicell-Fold geometric learning in folding mult.pdf;/Users/adrienleroy/Zotero/storage/8KUCGSZ9/2407.html}
-}
-
-@article{
-  title = {How {{Computation Is Helping Unravel}} the {{Dynamics}} of {{Morphogenesis}}},
-  author = {{Pastor-Escuredo}, David and Del {\'A}lamo, Juan C.},
-  year = 2020,
-  month = feb,
-  journal = {Frontiers in Physics},
-  volume = {8},
-  publisher = {Frontiers Media SA},
-  issn = {2296-424X},
-  doi = {10.3389/fphy.2020.00031},
-  urldate = {2025-07-18},
-  abstract = {The growing availability of imaging data, calculation power, and algorithm sophistication are transforming the study of morphogenesis into a computation-driven discipline. In parallel, it is accepted that mechanics plays a role in many of the processes determining the cell fate map, providing further opportunities for modeling and simulation. We provide a perspective of this integrative field, discussing recent advances and outstanding challenges to understand the determination of the fate map. At the basis, high-resolution microscopy and image processing provide digital representations of embryos that facilitate quantifying their mechanics with computational methods. Moreover, innovations in in-vivo sensing and tissue manipulation can now characterize cell-scale processes to feed larger-scale representations. A variety of mechanical formalisms have been proposed to model cellular biophysics and its links with biochemical and genetic factors. However, there are still limitations derived from the dynamic nature of embryonic tissue and its spatio-temporal heterogeneity. Also, the increasing complexity and variety of implementations make it difficult to harmonize and cross-validate models. The solution to these challenges will likely require integrating novel in vivo measurements of embryonic biomechanics into the models. Machine Learning has great potential to classify spatiotemporally connected groups of cells with similar dynamics. Emerging Deep Learning architectures facilitate the discovery of causal links and are becoming transparent and interpretable. We anticipate these new tools will lead to multi-scale models with the necessary accuracy and flexibility to formulate hypotheses for in-vivo and in-silico testing. These methods have promising applications for tissue engineering, identification of therapeutic targets, and synthetic life.},
-  copyright = {https://creativecommons.org/licenses/by/4.0/},
-  langid = {english},
-  note = {Also i line with the review. Presents the advacnes in comutational biology. Makes a case for deep lerning as predictors of tissue morphogenesis. 
-\par
-Address de black box nature of DL systems
-\par
-Reviews in depth CPM and CVM (just gives the citaitons, does not explain further)},
-  file = {/Users/adrienleroy/Zotero/storage/HJDAXXCA/Pastor-Escuredo et Del Álamo - 2020 - How Computation Is Helping Unravel the Dynamics of.pdf}
-}
-
-@article{
-  title = {Multiplexed, Image-Based Pooled Screens in Primary Cells and Tissues with {{PerturbView}}},
-  author = {Kudo, Takamasa and Meireles, Ana M. and Moncada, Reuben and Chen, Yushu and Wu, Ping and Gould, Joshua and Hu, Xiaoyu and Kornfeld, Opher and Jesudason, Rajiv and Foo, Conrad and H{\"o}ckendorf, Burkhard and Corrada Bravo, Hector and Town, Jason P. and Wei, Runmin and Rios, Antonio and Chandrasekar, Vineethkrishna and Heinlein, Melanie and Chuong, Amy S. and Cai, Shuangyi and Lu, Cherry Sakura and Coelho, Paula and Mis, Monika and Celen, Cemre and Kljavin, Noelyn and Jiang, Jian and Richmond, David and Thakore, Pratiksha and {Benito-Guti{\'e}rrez}, Elia and {Geiger-Schuller}, Kathryn and Hleap, Jose Sergio and Kayagaki, Nobuhiko and De Sousa E Melo, Felipe and McGinnis, Lisa and Li, Bo and Singh, Avtar and Garraway, Levi and {Rozenblatt-Rosen}, Orit and Regev, Aviv and Lubeck, Eric},
-  year = 2025,
-  month = jul,
-  journal = {Nature Biotechnology},
-  volume = {43},
-  number = {7},
-  pages = {1091--1100},
-  publisher = {{Springer Science and Business Media LLC}},
-  issn = {1087-0156, 1546-1696},
-  doi = {10.1038/s41587-024-02391-0},
-  urldate = {2025-07-18},
-  copyright = {https://www.springernature.com/gp/researchers/text-and-data-mining},
-  langid = {english},
-  note = {imaging based perturbation modelling in cancer and in single cells},
-  file = {/Users/adrienleroy/Zotero/storage/8NBKDCHB/Kudo et al. - 2025 - Multiplexed, image-based pooled screens in primary.pdf}
-}
-
-@misc{
-  title = {A Platform for Multimodal{\emph{in Vivo}}pooled Genetic Screens Reveals Regulators of Liver Function},
-  author = {Saunders, Reuben A. and Allen, William E. and Pan, Xingjie and Sandhu, Jaspreet and Lu, Jiaqi and Lau, Thomas K. and Smolyar, Karina and Sullivan, Zuri A. and Dulac, Catherine and Weissman, Jonathan S. and Zhuang, Xiaowei},
-  year = 2024,
-  month = nov,
-  publisher = {Cold Spring Harbor Laboratory},
-  doi = {10.1101/2024.11.18.624217},
-  urldate = {2025-07-18},
-  abstract = {Organ function requires coordinated activities of thousands of genes in distinct, spatially organized cell types. Understanding the basis of emergent tissue function requires approaches to dissect the genetic control of diverse cellular and tissue phenotypes in vivo. Here, we develop paired imaging and sequencing methods to construct large-scale, multi-modal genotype-phenotypes maps in tissue with pooled genetic perturbations. Using imaging, we identify genetic perturbations in individual cells while simultaneously measuring their gene expression and subcellular morphology. Using single-cell sequencing, we measure transcriptomic responses to the same genetic perturbations. We apply this approach to study hundreds of genetic perturbations in the mouse liver. Our study reveals regulators of hepatocyte zonation and liver unfolded protein response, as well as distinct pathways that cause hepatocyte steatosis. Our approach enables new ways of interrogating the genetic basis of complex cellular and organismal physiology and provides crucial training data for emerging machine-learning models of cellular function.},
-  archiveprefix = {Cold Spring Harbor Laboratory},
-  copyright = {http://creativecommons.org/licenses/by/4.0/},
-  langid = {english},
-  note = {a link between genotype and phenotype using imaging as well},
-  file = {/Users/adrienleroy/Zotero/storage/QPW2I5B8/Saunders et al. - 2024 - A platform for multimodalin vivopooled gene.pdf}
-}
-
-@misc{
-  title = {Quantitative Modeling of Cell and Tissue Mechanics with Agent-Based Models},
-  author = {{van Liedekerke}, Paul},
-  year = 2019,
-  month = jan,
-  publisher = {HAL},
-  archiveprefix = {HAL},
-  langid = {english},
-  note = {Agent based modelling review},
-  file = {/Users/adrienleroy/Zotero/storage/73BNHL9T/van Liedekerke - Quantitative modeling of cell and tissue mechanics.pdf}
-}
-
-@article{
-  title = {Mechanocellular Models of Epithelial Morphogenesis},
-  author = {Fletcher, Alexander G. and Cooper, Fergus and Baker, Ruth E.},
-  year = 2017,
-  month = may,
-  journal = {Philosophical Transactions of the Royal Society B: Biological Sciences},
-  volume = {372},
-  number = {1720},
-  pages = {20150519},
-  publisher = {The Royal Society},
-  issn = {0962-8436, 1471-2970},
-  doi = {10.1098/rstb.2015.0519},
-  urldate = {2025-07-19},
-  abstract = {Embryonic epithelia achieve complex morphogenetic movements, including in-plane reshaping, bending and folding, through the coordinated action and rearrangement of individual cells. Technical advances in molecular and live-imaging studies of epithelial dynamics provide a very real opportunity to understand how cell-level processes facilitate these large-scale tissue rearrangements. However, the large datasets that we are now able to generate require careful interpretation. In combination with experimental approaches, computational modelling allows us to challenge and refine our current understanding of epithelial morphogenesis and to explore experimentally intractable questions. To this end, a variety of cell-based modelling approaches have been developed to describe cell--cell mechanical interactions, ranging from vertex and `finite-element' models that approximate each cell geometrically by a polygon representing the cell's membrane, to immersed boundary and subcellular element models that allow for more arbitrary cell shapes. Here, we review how these models have been used to provide insights into epithelial morphogenesis and describe how such models could help future efforts to decipher the forces and mechanical and biochemical feedbacks that guide cell and tissue-level behaviour. In addition, we discuss current challenges associated with using computational models of morphogenetic processes in a quantitative and predictive way.This article is part of the themed issue `Systems morphodynamics: understanding the development of tissue hardware'.},
-  copyright = {https://royalsociety.org/journals/ethics-policies/data-sharing-mining/},
-  langid = {english},
-  note = {Agent based modelling review},
-  file = {/Users/adrienleroy/Zotero/storage/NA9ZYYPA/Fletcher et al. - 2017 - Mechanocellular models of epithelial morphogenesis.pdf}
-}
-
-@article{
-  title = {Vertex {{Models}} of {{Epithelial Morphogenesis}}},
-  author = {Fletcher, Alexander~G. and Osterfield, Miriam and Baker, Ruth~E. and Shvartsman, Stanislav~Y.},
-  year = 2014,
-  month = jun,
-  journal = {Biophysical Journal},
-  volume = {106},
-  number = {11},
-  pages = {2291--2304},
-  publisher = {Elsevier BV},
-  issn = {0006-3495},
-  doi = {10.1016/j.bpj.2013.11.4498},
-  urldate = {2025-07-19},
-  abstract = {The dynamic behavior of epithelial cell sheets plays a central role during numerous developmental processes. Genetic and imaging studies of epithelial morphogenesis in a wide range of organisms have led to increasingly detailed mechanisms of cell sheet dynamics. Computational models offer a useful means by which to investigate and test these mechanisms, and have played a key role in the study of cell-cell interactions. A variety of modeling approaches can be used to simulate the balance of forces within an epithelial sheet. Vertex models are a class of such models that consider cells as individual objects, approximated by two-dimensional polygons representing cellular interfaces, in which each vertex moves in response to forces due to growth, interfacial tension, and pressure within each cell. Vertex models are used to study cellular processes within epithelia, including cell motility, adhesion, mitosis, and delamination. This review summarizes how vertex models have been used to provide insight into developmental processes and highlights current challenges in this area, including progressing these models from two to three dimensions and developing new tools for model validation.},
-  copyright = {https://www.elsevier.com/tdm/userlicense/1.0/},
-  langid = {english},
-  note = {The original vertex model},
-  file = {/Users/adrienleroy/Zotero/storage/RJZPCJ8A/Fletcher et al. - 2014 - Vertex Models of Epithelial Morphogenesis.pdf}
-}
-
-@article{
-  title = {The {{Influence}} of {{Cell Mechanics}}, {{Cell-Cell Interactions}}, and {{Proliferation}} on {{Epithelial Packing}}},
-  author = {Farhadifar, Reza and R{\"o}per, Jens-Christian and Aigouy, Benoit and Eaton, Suzanne and J{\"u}licher, Frank},
-  year = 2007,
-  month = dec,
-  journal = {Current Biology},
-  volume = {17},
-  number = {24},
-  pages = {2095--2104},
-  publisher = {Elsevier BV},
-  issn = {0960-9822},
-  doi = {10.1016/j.cub.2007.11.049},
-  urldate = {2025-07-19},
-  abstract = {Background: Epithelial junctional networks assume packing geometries characterized by different cell shapes, neighbor number distributions and areas. The development of specific packing geometries is tightly controlled; in the Drosophila wing epithelium, cells convert from an irregular to a hexagonal array shortly before hair formation. Packing geometry is determined by developmental mechanisms that likely control the biophysical properties of cells and their interactions. Results: To understand how physical cellular properties and proliferation determine cell-packing geometries, we use a vertex model for the epithelial junctional network in which cell packing geometries correspond to stable and stationary network configurations. The model takes into account cell elasticity and junctional forces arising from cortical contractility and adhesion. By numerically simulating proliferation, we generate different network morphologies that depend on physical parameters. These networks differ in polygon class distribution, cell area variation, and the rate of T1 and T2 transitions during growth. Comparing theoretical results to observed cell morphologies reveals regions of parameter space where calculated network morphologies match observed ones. We independently estimate parameter values by quantifying network deformations caused by laser ablating individual cell boundaries. Conclusions: The vertex model accounts qualitatively and quantitatively for the observed packing geometry in the wing disc and its response to perturbation by laser ablation. Epithelial packing geometry is a consequence of both physical cellular properties and the disordering influence of proliferation. The occurrence of T2 transitions during network growth suggests that elimination of cells from the proliferating disc epithelium may be the result of junctional force balances.},
-  copyright = {https://www.elsevier.com/tdm/userlicense/1.0/},
-  langid = {english},
-  note = {use of CVM to show model cellular packing},
-  file = {/Users/adrienleroy/Zotero/storage/USXE8ZRV/Farhadifar et al. - 2007 - The Influence of Cell Mechanics, Cell-Cell Interac.pdf}
-}
-
-@article{
-  title = {Apico-Basal Forces Exerted by Apoptotic Cells Drive Epithelium Folding},
-  author = {Monier, Bruno and Gettings, Melanie and Gay, Guillaume and Mangeat, Thomas and Schott, Sonia and Guarner, Ana and Suzanne, Magali},
-  year = 2015,
-  month = feb,
-  journal = {Nature},
-  volume = {518},
-  number = {7538},
-  pages = {245--248},
-  publisher = {{Springer Science and Business Media LLC}},
-  issn = {0028-0836, 1476-4687},
-  doi = {10.1038/nature14152},
-  urldate = {2025-07-19},
-  copyright = {https://www.springer.com/tdm},
-  langid = {english},
-  note = {Use of CVM is contexts such as folding},
-  file = {/Users/adrienleroy/Zotero/storage/PTVEYI7Y/Monier et al. - 2015 - Apico-basal forces exerted by apoptotic cells driv.pdf}
-}
-
-@article{
-  title = {Embryo-Scale Tissue Mechanics during {{Drosophila}} Gastrulation Movements},
-  author = {Rauzi, Matteo and Krzic, Uros and Saunders, Timothy E. and Krajnc, Matej and Ziherl, Primo{\v z} and Hufnagel, Lars and Leptin, Maria},
-  year = 2015,
-  month = oct,
-  journal = {Nature Communications},
-  volume = {6},
-  number = {1},
-  publisher = {{Springer Science and Business Media LLC}},
-  issn = {2041-1723},
-  doi = {10.1038/ncomms9677},
-  urldate = {2025-07-19},
-  abstract = {AbstractMorphogenesis of an organism requires the development of its parts to be coordinated in time and space. While past studies concentrated on defined cell populations, a synthetic view of the coordination of these events in a whole organism is needed for a full understanding. Drosophila gastrulation begins with the embryo forming a ventral furrow, which is eventually internalized. It is not understood how the rest of the embryo participates in this process. Here we use multiview selective plane illumination microscopy coupled with infrared laser manipulation and mutant analysis to dissect embryo-scale cell interactions during early gastrulation. Lateral cells have a denser medial--apical actomyosin network and shift ventrally as a compact cohort, whereas dorsal cells become stretched. We show that the behaviour of these cells affects furrow internalization. A computational model predicts different mechanical properties associated with tissue behaviour: lateral cells are stiff, whereas dorsal cells are soft. Experimental analysis confirms these properties in vivo.},
-  copyright = {https://creativecommons.org/licenses/by/4.0},
-  langid = {english},
-  note = {use of CVM to model large scale embryo movements},
-  file = {/Users/adrienleroy/Zotero/storage/H9ENHV2U/Rauzi et al. - 2015 - Embryo-scale tissue mechanics during Drosophila ga.pdf}
-}
-
-@article{
+@article{aegerter-wilmsenExploringEffectsMechanical2010,
   title = {Exploring the Effects of Mechanical Feedback on Epithelial Topology},
   author = {{Aegerter-Wilmsen}, Tinri and Smith, Alister C. and Christen, Alix J. and Aegerter, Christof M. and Hafen, Ernst and Basler, Konrad},
   year = 2010,
@@ -337,361 +15,6 @@ Reviews in depth CPM and CVM (just gives the citaitons, does not explain further
   langid = {english},
   note = {use of CVM to show model growth},
   file = {/Users/adrienleroy/Zotero/storage/MYMLB2VS/Aegerter-Wilmsen et al. - 2010 - Exploring the effects of mechanical feedback on ep.pdf}
-}
-
-@inbook{
-  title = {Multi-{{Scale Modeling}} of {{Tissues Using CompuCell3D}}},
-  booktitle = {Methods in {{Cell Biology}}},
-  year = 2012,
-  pages = {325--366},
-  publisher = {Elsevier},
-  issn = {0091-679X},
-  doi = {10.1016/b978-0-12-388403-9.00013-8},
-  urldate = {2025-07-19},
-  collaborator = {Swat, Maciej H. and Thomas, Gilberto L. and Belmonte, Julio M. and Shirinifard, Abbas and Hmeljak, Dimitrij and Glazier, James A.},
-  langid = {english},
-  note = {to cite the original potts model},
-  file = {/Users/adrienleroy/Zotero/storage/TLGMDETB/2012 - Multi-Scale Modeling of Tissues Using CompuCell3D.pdf}
-}
-
-@article{
-  title = {Simulation of Biological Cell Sorting Using a Two-Dimensional Extended {{Potts}} Model},
-  author = {Graner, F. and Glazier, J. A.},
-  year = 1992,
-  month = sep,
-  journal = {Physical Review Letters},
-  volume = {69},
-  number = {13},
-  pages = {2013--2016},
-  issn = {1079-7114},
-  doi = {10.1103/PhysRevLett.69.2013},
-  langid = {english},
-  pmid = {10046374},
-  keywords = {review_2604_5:vertex-cpm},
-  note = {to cite the original potts model}
-}
-
-@article{
-  title = {Multi-{{Scale Modeling}} in {{Morphogenesis}}: {{A Critical Analysis}} of the {{Cellular Potts Model}}},
-  shorttitle = {Multi-{{Scale Modeling}} in {{Morphogenesis}}},
-  author = {{Voss-B{\"o}hme}, Anja},
-  editor = {Aegerter, Christof Markus},
-  year = 2012,
-  month = sep,
-  journal = {PLoS ONE},
-  volume = {7},
-  number = {9},
-  pages = {e42852},
-  publisher = {Public Library of Science (PLoS)},
-  issn = {1932-6203},
-  doi = {10.1371/journal.pone.0042852},
-  urldate = {2025-07-19},
-  abstract = {Cellular Potts models (CPMs) are used as a modeling framework to elucidate mechanisms of biological development. They allow a spatial resolution below the cellular scale and are applied particularly when problems are studied where multiple spatial and temporal scales are involved. Despite the increasing usage of CPMs in theoretical biology, this model class has received little attention from mathematical theory. To narrow this gap, the CPMs are subjected to a theoretical study here. It is asked to which extent the updating rules establish an appropriate dynamical model of intercellular interactions and what the principal behavior at different time scales characterizes. It is shown that the longtime behavior of a CPM is degenerate in the sense that the cells consecutively die out, independent of the specific interdependence structure that characterizes the model. While CPMs are naturally defined on finite, spatially bounded lattices, possible extensions to spatially unbounded systems are explored to assess to which extent spatio-temporal limit procedures can be applied to describe the emergent behavior at the tissue scale. To elucidate the mechanistic structure of CPMs, the model class is integrated into a general multiscale framework. It is shown that the central role of the surface fluctuations, which subsume several cellular and intercellular factors, entails substantial limitations for a CPM's exploitation both as a mechanistic and as a phenomenological model.},
-  copyright = {http://creativecommons.org/licenses/by/4.0/},
-  langid = {english},
-  keywords = {review_2604_5:vertex-cpm},
-  note = {CPM are well suited to study multi scale phenomea such as morphogenesis},
-  file = {/Users/adrienleroy/Zotero/storage/QY8AUANG/Voss-Böhme - 2012 - Multi-Scale Modeling in Morphogenesis A Critical .pdf}
-}
-
-@article{
-  title = {Cell Adhesion and Cortex Contractility Determine Cell Patterning in the            {{{\emph{Drosophila}}}}            Retina},
-  author = {K{\"a}fer, Jos and Hayashi, Takashi and Mar{\'e}e, Athanasius F. M. and Carthew, Richard W. and Graner, Fran{\c c}ois},
-  year = 2007,
-  month = nov,
-  journal = {Proceedings of the National Academy of Sciences},
-  volume = {104},
-  number = {47},
-  pages = {18549--18554},
-  publisher = {Proceedings of the National Academy of Sciences},
-  issn = {0027-8424, 1091-6490},
-  doi = {10.1073/pnas.0704235104},
-  urldate = {2025-07-19},
-  abstract = {Because of the resemblance of many epithelial tissues to densely packed soap bubbles, it has been suggested that surface minimization, which drives soap bubble packing, could be governing cell packing as well. We test this by modeling the shape of the cells in a            Drosophila            retina ommatidium. We use the observed configurations and shapes in wild-type flies, as well as in flies with different numbers of cells per ommatidia, and mutants with cells where E- or N-cadherin is either deleted or misexpressed. We find that surface minimization is insufficient to model the experimentally observed shapes and packing of the cells based on their cadherin expression. We then consider a model in which adhesion leads to a surface increase, balanced by cell cortex contraction. Using the experimentally observed distributions of E- and N-cadherin, we simulate the packing and cell shapes in the wild-type eye. Furthermore, by changing only the corresponding parameters, this model can describe the mutants with different numbers of cells or changes in cadherin expression.},
-  langid = {english},
-  note = {<< the CPM has provided insight about how cortical tension and cell adhesions drive cell sorting and tissue organization >> (Pastor-Escuredo et Del \'Alamo, 2020, p. 5)},
-  file = {/Users/adrienleroy/Zotero/storage/94LU2FDX/Käfer et al. - 2007 - Cell adhesion and cortex contractility determine c.pdf}
-}
-
-@article{
-  title = {Tensile Forces Govern Germ-Layer Organization in Zebrafish},
-  author = {Krieg, M. and {Arboleda-Estudillo}, Y. and Puech, P.-H. and K{\"a}fer, J. and Graner, F. and M{\"u}ller, D. J. and Heisenberg, C.-P.},
-  year = 2008,
-  month = apr,
-  journal = {Nature Cell Biology},
-  volume = {10},
-  number = {4},
-  pages = {429--436},
-  publisher = {{Springer Science and Business Media LLC}},
-  issn = {1465-7392, 1476-4679},
-  doi = {10.1038/ncb1705},
-  urldate = {2025-07-19},
-  copyright = {http://www.springer.com/tdm},
-  langid = {english},
-  note = {<< the CPM has provided insight about how cortical tension and cell adhesions drive cell sorting and tissue organization >> (Pastor-Escuredo et Del \'Alamo, 2020, p. 5)},
-  file = {/Users/adrienleroy/Zotero/storage/IQG4I7WK/Krieg et al. - 2008 - Tensile forces govern germ-layer organization in z.pdf}
-}
-
-@article{
-  title = {Scientific Discovery in the Age of Artificial Intelligence},
-  author = {Wang, Hanchen and Fu, Tianfan and Du, Yuanqi and Gao, Wenhao and Huang, Kexin and Liu, Ziming and Chandak, Payal and Liu, Shengchao and Van Katwyk, Peter and Deac, Andreea and Anandkumar, Anima and Bergen, Karianne and Gomes, Carla P. and Ho, Shirley and Kohli, Pushmeet and Lasenby, Joan and Leskovec, Jure and Liu, Tie-Yan and Manrai, Arjun and Marks, Debora and Ramsundar, Bharath and Song, Le and Sun, Jimeng and Tang, Jian and Veli{\v c}kovi{\'c}, Petar and Welling, Max and Zhang, Linfeng and Coley, Connor W. and Bengio, Yoshua and Zitnik, Marinka},
-  year = 2023,
-  month = aug,
-  journal = {Nature},
-  volume = {620},
-  number = {7972},
-  pages = {47--60},
-  publisher = {{Springer Science and Business Media LLC}},
-  issn = {0028-0836, 1476-4687},
-  doi = {10.1038/s41586-023-06221-2},
-  urldate = {2025-07-20},
-  copyright = {https://www.springernature.com/gp/researchers/text-and-data-mining},
-  langid = {english},
-  note = {Adds the notion of the usefulness of inductive biases},
-  file = {/Users/adrienleroy/Zotero/storage/X8UKPCPX/Wang et al. - 2023 - Scientific discovery in the age of artificial inte.pdf}
-}
-
-@article{
-  title = {Generative Models of Morphogenesis in Developmental Biology},
-  author = {Stillman, Namid R. and Mayor, Roberto},
-  year = 2023,
-  month = sep,
-  journal = {Seminars in Cell \& Developmental Biology},
-  volume = {147},
-  pages = {83--90},
-  publisher = {Elsevier BV},
-  issn = {1084-9521},
-  doi = {10.1016/j.semcdb.2023.02.001},
-  urldate = {2025-07-20},
-  abstract = {Understanding the mechanism by which cells coordinate their differentiation and migration is critical to our understanding of many fundamental processes such as wound healing, disease progression, and developmental biology. Mathematical models have been an essential tool for testing and developing our understanding, such as models of cells as soft spherical particles, reaction-diffusion systems that couple cell movement to environmental factors, and multi-scale multi-physics simulations that combine bottom-up rule-based models with continuum laws. However, mathematical models can often be loosely related to data or have so many parameters that model behaviour is weakly constrained. Recent methods in machine learning introduce new means by which models can be derived and deployed. In this review, we discuss examples of mathematical models of aspects of devel\- opmental biology, such as cell migration, and how these models can be combined with these recent machine learning methods.},
-  copyright = {https://www.elsevier.com/tdm/userlicense/1.0/},
-  langid = {english},
-  note = {A justification of deep learning models for predicting biological tasks},
-  file = {/Users/adrienleroy/Zotero/storage/YYLDYXTW/Stillman et Mayor - 2023 - Generative models of morphogenesis in developmenta.pdf}
-}
-
-@misc{
-  title = {A New Golden Age of Discovery},
-  author = {Griffin, Conor and Wallace, Don and {Mateos-Garcia}, Juan and Schieve, Hanna and Kohli, Pushmeet},
-  publisher = {bioRxiv},
-  archiveprefix = {bioRxiv},
-  langid = {english},
-  note = {A justification of the power of deep learning models for high search space tasks},
-  file = {/Users/adrienleroy/Zotero/storage/VM7P66SB/Griffin et al. - A new golden age of discovery.pdf}
-}
-
-@article{
-  title = {Highly Accurate Protein Structure Prediction with {{AlphaFold}}},
-  author = {Jumper, John and Evans, Richard and Pritzel, Alexander and Green, Tim and Figurnov, Michael and Ronneberger, Olaf and Tunyasuvunakool, Kathryn and Bates, Russ and {\v Z}{\'i}dek, Augustin and Potapenko, Anna and Bridgland, Alex and Meyer, Clemens and Kohl, Simon A. A. and Ballard, Andrew J. and Cowie, Andrew and {Romera-Paredes}, Bernardino and Nikolov, Stanislav and Jain, Rishub and Adler, Jonas and Back, Trevor and Petersen, Stig and Reiman, David and Clancy, Ellen and Zielinski, Michal and Steinegger, Martin and Pacholska, Michalina and Berghammer, Tamas and Bodenstein, Sebastian and Silver, David and Vinyals, Oriol and Senior, Andrew W. and Kavukcuoglu, Koray and Kohli, Pushmeet and Hassabis, Demis},
-  year = 2021,
-  month = aug,
-  journal = {Nature},
-  volume = {596},
-  number = {7873},
-  pages = {583--589},
-  publisher = {{Springer Science and Business Media LLC}},
-  issn = {0028-0836, 1476-4687},
-  doi = {10.1038/s41586-021-03819-2},
-  urldate = {2025-07-20},
-  abstract = {AbstractProteins are essential to life, and understanding their structure can facilitate a mechanistic understanding of their function. Through an enormous experimental effort1--4, the structures of around 100,000 unique proteins have been determined5, but this represents a small fraction of the billions of known protein sequences6,7. Structural coverage is bottlenecked by the months to years of painstaking effort required to determine a single protein structure. Accurate computational approaches are needed to address this gap and to enable large-scale structural bioinformatics. Predicting the three-dimensional structure that a protein will adopt based solely on its amino acid sequence---the structure prediction component of the `protein folding problem'8---has been an important open research problem for more than 50~years9. Despite recent progress10--14, existing methods fall far~short of atomic accuracy, especially when no homologous structure is available. Here we provide the first computational method that can regularly predict protein structures with atomic accuracy even in cases in which no similar structure is known. We validated an entirely redesigned version of our neural network-based model, AlphaFold, in the challenging 14th Critical Assessment of protein Structure Prediction (CASP14)15, demonstrating accuracy competitive with experimental structures in a majority of cases and greatly outperforming other methods. Underpinning the latest version of AlphaFold is a novel machine learning approach that incorporates physical and biological knowledge about protein structure, leveraging multi-sequence alignments, into the design of the deep learning algorithm.},
-  copyright = {https://creativecommons.org/licenses/by/4.0},
-  langid = {english},
-  note = {deep learning models are powerful to predict tasks in large search spaces},
-  file = {/Users/adrienleroy/Zotero/storage/D8PXMKLP/Jumper et al. - 2021 - Highly accurate protein structure prediction with .pdf}
-}
-
-@article{
-  title = {Mastering the Game of {{Go}} with Deep Neural Networks and Tree Search},
-  author = {Silver, David and Huang, Aja and Maddison, Chris J. and Guez, Arthur and Sifre, Laurent and Van Den Driessche, George and Schrittwieser, Julian and Antonoglou, Ioannis and Panneershelvam, Veda and Lanctot, Marc and Dieleman, Sander and Grewe, Dominik and Nham, John and Kalchbrenner, Nal and Sutskever, Ilya and Lillicrap, Timothy and Leach, Madeleine and Kavukcuoglu, Koray and Graepel, Thore and Hassabis, Demis},
-  year = 2016,
-  month = jan,
-  journal = {Nature},
-  volume = {529},
-  number = {7587},
-  pages = {484--489},
-  publisher = {{Springer Science and Business Media LLC}},
-  issn = {0028-0836, 1476-4687},
-  doi = {10.1038/nature16961},
-  urldate = {2025-07-20},
-  copyright = {https://www.springer.com/tdm},
-  langid = {english},
-  note = {Use of deep learning methods for tasks with large search space},
-  file = {/Users/adrienleroy/Zotero/storage/PTUI7TLE/Silver et al. - 2016 - Mastering the game of Go with deep neural networks.pdf}
-}
-
-@article{
-  title = {Predicting Cell Morphological Responses to Perturbations Using Generative Modeling},
-  author = {Palma, Alessandro and Theis, Fabian J. and Lotfollahi, Mohammad},
-  year = 2025,
-  month = jan,
-  journal = {Nature Communications},
-  volume = {16},
-  number = {1},
-  publisher = {{Springer Science and Business Media LLC}},
-  issn = {2041-1723},
-  doi = {10.1038/s41467-024-55707-8},
-  urldate = {2025-07-20},
-  abstract = {AbstractAdvancements in high-throughput screenings enable the exploration of rich phenotypic readouts through high-content microscopy, expediting the development of phenotype-based drug discovery. However, analyzing large and complex high-content imaging screenings remains challenging due to incomplete sampling of perturbations and the presence of technical variations between experiments. To tackle these shortcomings, we present IMage Perturbation Autoencoder (IMPA), a generative style-transfer model predicting morphological changes of perturbations across genetic and chemical interventions. We show that IMPA accurately captures morphological and population-level changes of both seen and unseen perturbations on breast cancer and osteosarcoma cells. Additionally, IMPA accounts for batch effects and can model perturbations across various sources of technical variation, further enhancing its robustness in diverse experimental conditions. With the increasing availability of large-scale high-content imaging screens generated by academic and industrial consortia, we envision that IMPA will facilitate the analysis of microscopy data and enable efficient experimental design via in-silico perturbation prediction.},
-  copyright = {https://creativecommons.org/licenses/by/4.0},
-  langid = {english},
-  file = {/Users/adrienleroy/Zotero/storage/GVJ9PXVY/Palma et al. - 2025 - Predicting cell morphological responses to perturb.pdf}
-}
-
-@article{
-  title = {The Mechanics of Cell Sorting and Envelopment},
-  author = {Wayne Brodland, G and Chen, Helen H},
-  year = 2000,
-  month = jul,
-  journal = {Journal of Biomechanics},
-  volume = {33},
-  number = {7},
-  pages = {845--851},
-  issn = {0021-9290},
-  doi = {10.1016/S0021-9290(00)00011-7},
-  urldate = {2025-07-21},
-  abstract = {Aggregates of embryonic cells undergo a variety of intriguing processes including sorting by histological type and envelopment of cell masses of one type by another. It has long been held that these processes were driven by differential adhesions, as embodied in the famous differential adhesion hypothesis (DAH). Here, we use analytical mechanics to investigate the forces that are generated by various sub-cellular structures including microfilaments, cell membranes and their associated proteins, and by sources of cell--cell adhesions. We consider how these forces cause the triple junctions between cells to move, and how these motions ultimately give rise to phenomena such as cell sorting and tissue envelopment. The analyses show that, contrary to the widely accepted DAH, differential adhesions alone are unable to drive sorting and envelopment. They show, instead, that these phenomena are driven by the combined effect of several force generators, as embodied in an equivalent surface or interfacial tension. These unconventional findings follow directly from the relevant surface physics and mechanics, and are consistent with well-known cell sorting and envelopment experiments, and with recent computer simulations.},
-  keywords = {Cell mechanics,Cell sorting,Differential adhesion hypothesis (DAH)},
-  file = {/Users/adrienleroy/Zotero/storage/3LM5WMZA/S0021929000000117.html}
-}
-
-@article{
-  title = {A Cell-Based Model of {{Nematostella}} Vectensis Gastrulation Including Bottle Cell Formation, Invagination and Zippering},
-  author = {Tamulonis, Carlos and Postma, Marten and Marlow, Heather Q. and Magie, Craig R. and {de Jong}, Johann and Kaandorp, Jaap},
-  year = 2011,
-  month = mar,
-  journal = {Developmental Biology},
-  volume = {351},
-  number = {1},
-  pages = {217--228},
-  issn = {1095-564X},
-  doi = {10.1016/j.ydbio.2010.10.017},
-  abstract = {The gastrulation of Nematostella vectensis, the starlet sea anemone, is morphologically simple yet involves many conserved cell behaviors such as apical constriction, invagination, bottle cell formation, cell migration and zippering found during gastrulation in a wide range of more morphologically complex animals. In this article we study Nematostella gastrulation using a combination of morphometrics and computational modeling. Through this analysis we frame gastrulation as a non-trivial problem, in which two distinct cell domains must change shape to match each other geometrically, while maintaining the integrity of the embryo. Using a detailed cell-based model capable of representing arbitrary cell-shapes such as bottle cells, as well as filopodia, localized adhesion and constriction, we are able to simulate gastrulation and associate emergent macroscopic changes in embryo shape to individual cell behaviors. We have developed a number of testable hypotheses based on the model. First, we hypothesize that the blastomeres need to be stiffer at their apical ends, relative to the rest of the cell perimeter, in order to be able to hold their wedge shape and the dimensions of the blastula, regardless of whether the blastula is sealed or leaky. We also postulate that bottle cells are a consequence of cell strain and low cell-cell adhesion, and can be produced within an epithelium even without apical constriction. Finally, we postulate that apical constriction, filopodia and de-epithelialization are necessary and sufficient for gastrulation based on parameter variation studies.},
-  langid = {english},
-  pmid = {20977902},
-  keywords = {Animals,Cell Adhesion,Cell Movement,Ectoderm,Endoderm,Gastrulation,Models Biological,Sea Anemones}
-}
-
-@article{
-  title = {Emergent Cell and Tissue Dynamics from Subcellular Modeling of Active Biomechanical Processes},
-  author = {Sandersius, S A and Weijer, C J and Newman, T J},
-  year = 2011,
-  month = jul,
-  journal = {Physical Biology},
-  volume = {8},
-  number = {4},
-  pages = {045007},
-  issn = {1478-3975},
-  doi = {10.1088/1478-3975/8/4/045007},
-  urldate = {2025-07-21},
-  abstract = {Cells and the tissues they form are not passive material bodies. Cells change their behavior in response to external biochemical and biomechanical cues. Behavioral changes, such as morphological deformation, proliferation and migration, are striking in many multicellular processes such as morphogenesis, wound healing and cancer progression. Cell-based modeling of these phenomena requires algorithms that can capture active cell behavior and their emergent tissue-level phenotypes. In this paper, we report on extensions of the subcellular element model to model active biomechanical subcellular processes. These processes lead to emergent cell and tissue level phenotypes at larger scales, including (i) adaptive shape deformations in cells responding to slow stretching, (ii) viscous flow of embryonic tissues, and (iii) streaming patterns of chemotactic cells in epithelial-like sheets. In each case, we connect our simulation results to recent experiments.},
-  langid = {english},
-  file = {/Users/adrienleroy/Zotero/storage/3PH5VM28/Sandersius et al. - 2011 - Emergent cell and tissue dynamics from subcellular modeling of active biomechanical processes.pdf}
-}
-
-@article{
-  title = {Theory of Epithelial Sheet Morphology in Three Dimensions},
-  author = {Hannezo, Edouard and Prost, Jacques and Joanny, Jean-Francois},
-  year = 2014,
-  month = jan,
-  journal = {Proceedings of the National Academy of Sciences},
-  volume = {111},
-  number = {1},
-  pages = {27--32},
-  publisher = {Proceedings of the National Academy of Sciences},
-  doi = {10.1073/pnas.1312076111},
-  urldate = {2025-07-21},
-  abstract = {Morphogenesis during embryo development requires the coordination of mechanical forces to generate the macroscopic shapes of organs. We propose a minimal theoretical model, based on cell adhesion and actomyosin contractility, which describes the various shapes of epithelial cells and the bending and buckling of epithelial sheets, as well as the relative stability of cellular tubes and spheres. We show that, to understand these processes, a full 3D description of the cells is needed, but that simple scaling laws can still be derived. The morphologies observed in vivo can be understood as stable points of mechanical equations and the transitions between them are either continuous or discontinuous. We then focus on epithelial sheet bending, a ubiquitous morphogenetic process. We calculate the curvature of an epithelium as a function of actin belt tension as well as of cell--cell and and cell--substrate tension. The model allows for a comparison of the relative stabilities of spherical or cylindrical cellular structures (acini or tubes). Finally, we propose a unique type of buckling instability of epithelia, driven by a flattening of individual cell shapes, and discuss experimental tests to verify our predictions.},
-  file = {/Users/adrienleroy/Zotero/storage/5BL3CU6L/Hannezo et al. - 2014 - Theory of epithelial sheet morphology in three dim.pdf}
-}
-
-@article{
-  title = {Size and Curvature Regulate Pattern Selection in the Mammalian Brain},
-  author = {Budday, Silvia and Steinmann, Paul and Goriely, Alain and Kuhl, Ellen},
-  year = 2015,
-  month = sep,
-  journal = {Extreme Mechanics Letters},
-  volume = {4},
-  pages = {193--198},
-  issn = {2352-4316},
-  doi = {10.1016/j.eml.2015.07.004},
-  urldate = {2025-07-21},
-  abstract = {Mammalian brains display a wide variety of shapes and surface morphologies. Their characteristically folded surface is closely correlated to neuronal activity and serves as a clinical indicator for physiological and pathological conditions. Yet, the regulators of pattern formation in evolution and development remain poorly understood. Here we show how brain size and curvature affect the folding pattern in the developing mammalian brain. We model cortical folding as the instability problem of a bilayered system subjected to growth-induced compression. Using analytical estimates and continuum models for finite growth, we systematically explore the effects of geometric factors on the evolution of surface shape. We demonstrate that extrinsic geometric features--including brain size, cortical thickness, and cortical curvature--tightly regulate pattern selection: The mammalian brain is extremely soft and even small environmental changes can create extremely large alterations in its surface morphology. Our simulations explain why gyrification increases with brain size and why longer brains tend to fold more longitudinally than radially. Our results suggest that brain folding is driven, at least in part, by extreme mechanics, rather than by phylogeny alone.},
-  keywords = {Brain mechanics,Cortical folding,Growth,Instabilities,Living matter,Soft matter,Thin films},
-  file = {/Users/adrienleroy/Zotero/storage/QU5HTEZH/S2352431615000863.html}
-}
-
-@article{
-  title = {Bringing {{Light}} to {{Transcription}}: {{The Optogenetics Repertoire}}},
-  shorttitle = {Bringing {{Light}} to {{Transcription}}},
-  author = {De Mena, Lorena and Rizk, Patrick and {Rincon-Limas}, Diego E.},
-  year = 2018,
-  month = nov,
-  journal = {Frontiers in Genetics},
-  volume = {9},
-  publisher = {Frontiers Media SA},
-  issn = {1664-8021},
-  doi = {10.3389/fgene.2018.00518},
-  urldate = {2025-07-21},
-  abstract = {The ability to manipulate expression of exogenous genes in particular regions of living organisms has profoundly transformed the way we study biomolecular processes involved in both normal development and disease. Unfortunately, most of the classical inducible systems lack fine spatial and temporal accuracy, thereby limiting the study of molecular events that strongly depend on time, duration of activation, or cellular localization. By exploiting genetically engineered photo sensing proteins that respond to specific wavelengths, we can now provide acute control of numerous molecular activities with unprecedented precision. In this review, we present a comprehensive breakdown of all of the current optogenetic systems adapted to regulate gene expression in both unicellular and multicellular organisms. We focus on the advantages and disadvantages of these different tools and discuss current and future challenges in the successful translation to more complex organisms.},
-  copyright = {https://creativecommons.org/licenses/by/4.0/},
-  langid = {english},
-  file = {/Users/adrienleroy/Zotero/storage/I3IXK74I/De Mena et al. - 2018 - Bringing Light to Transcription The Optogenetics .pdf}
-}
-
-@article{
-  title = {Rapid and Robust Optogenetic Control of Gene Expression in {{Drosophila}}},
-  author = {Di Pietro, Florencia and Herszterg, Sophie and Huang, Anqi and Bosveld, Floris and Alexandre, Cyrille and Sanc{\'e}r{\'e}, Lucas and Pelletier, St{\'e}phane and Joudat, Amina and Kapoor, Varun and Vincent, Jean-Paul and Bella{\"i}che, Yohanns},
-  year = 2021,
-  month = dec,
-  journal = {Developmental Cell},
-  volume = {56},
-  number = {24},
-  pages = {3393-3404.e7},
-  publisher = {Elsevier BV},
-  issn = {1534-5807},
-  doi = {10.1016/j.devcel.2021.11.016},
-  urldate = {2025-07-21},
-  abstract = {Deciphering gene function requires the ability to control gene expression in space and time. Binary systems such as the Gal4/UAS provide a powerful means to modulate gene expression and to induce loss or gain of function. This is best exemplified in Drosophila, where the Gal4/UAS system has been critical to discover conserved mechanisms in development, physiology, neurobiology, and metabolism, to cite a few. Here we describe a transgenic light-inducible Gal4/UAS system (ShineGal4/UAS) based on Magnet photoswitches. We show that it allows efficient, rapid, and robust activation of UAS-driven transgenes in different tissues and at various developmental stages in Drosophila. Furthermore, we illustrate how ShineGal4 enables the generation of gain and loss-of-function phenotypes at animal, organ, and cellular levels. Thanks to the large repertoire of UAS-driven transgenes, ShineGal4 enriches the Drosophila genetic toolkit by allowing in vivo control of gene expression with high temporal and spatial resolutions.},
-  copyright = {https://www.elsevier.com/tdm/userlicense/1.0/},
-  langid = {english},
-  keywords = {review_2604_5:optogenetic},
-  file = {/Users/adrienleroy/Zotero/storage/ZHBFIV4E/Di Pietro et al. - 2021 - Rapid and robust optogenetic control of gene expre.pdf}
-}
-
-@article{
-  title = {The Chemical Basis of Morphogenesis},
-  langid = {english},
-  file = {/Users/adrienleroy/Zotero/storage/V82X5B5D/The chemical basis of morphogenesis.pdf}
-}
-
-@misc{
-  title = {{{VertAX}}: A Differentiable Vertex Model for Learning Epithelial Tissue Mechanics},
-  shorttitle = {{{VertAX}}},
-  author = {Pasqui, Alessandro and Ocana, Jim Martin Catacora and Sinha, Anshuman and Perez, Matthieu and Delbary, Fabrice and Gosti, Giorgio and Miotto, Mattia and Caudo, Domenico and Ernoult, Maxence and Turlier, Herv{\'e}},
-  year = 2026,
-  month = apr,
-  number = {arXiv:2604.06896},
-  eprint = {2604.06896},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2604.06896},
-  urldate = {2026-04-20},
-  abstract = {Epithelial tissues dynamically reshape through local mechanical interactions among cells, a process well captured by vertex models. Yet their many tunable parameters make inference and optimization challenging, motivating computational frameworks that flexibly model and learn tissue mechanics. We introduce VertAX, a differentiable JAX-based framework for vertex-modeling of confluent epithelia. VertAX provides automatic differentiation, GPU acceleration, and end-to-end bilevel optimization for forward simulation, parameter inference, and inverse mechanical design. Users can define arbitrary energy and cost functions in pure Python, enabling seamless integration with machine-learning pipelines. We demonstrate VertAX on three representative tasks: (i) forward modeling of tissue morphogenesis, (ii) mechanical parameter inference, and (iii) inverse design of tissue-scale behaviors. We benchmark three differentiation strategies-automatic differentiation, implicit differentiation, and equilibrium propagation-showing that the latter can approximate gradients using repeated forward, adjoint-free simulations alone, offering a simple route for extending inverse biophysical problems to non-differentiable simulators with limited additional engineering effort.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Machine Learning,Computer Science - Software Engineering,Physics - Biological Physics,review_2604_5:hybrid,review_2604_5:physics-ml,review_2604_5:vertex-cpm},
-  note = {Comment: 28 pages, 4 figures
-\par
-Comment: 28 pages, 4 figures
-\par
-Comment: 28 pages, 4 figures},
-  file = {/Users/adrienleroy/Zotero/storage/WHVQKD2A/Pasqui et al. - 2026 - VertAX a differentiable vertex model for learning.pdf;/Users/adrienleroy/Zotero/storage/XHMBLRK5/2604.html}
-}
-
-@article{
-  title = {Drosophila Germ Band Extension: A Two-State Reshaping Mechanism},
-  author = {Zhu, Tianyi and Zhu, Hongkang and O'Shaughnessy, Ben},
-  langid = {english},
-  file = {/Users/adrienleroy/Zotero/storage/SREY82GD/Zhu et al. - Drosophila germ band extension a two-state reshaping mechanism.pdf}
 }
 
 @article{aigouyCellFlowReorients2010,
@@ -736,6 +59,26 @@ use of CPM to show model cellular packing},
   file = {/Users/adrienleroy/Zotero/storage/R3VDGCV7/Bardet et al. - 2013 - PTEN Controls Junction Lengthening and Stability d.pdf;/Users/adrienleroy/Zotero/storage/SZYU4YUA/Bardet et al. - 2013 - PTEN Controls Junction Lengthening and Stability d.pdf}
 }
 
+@misc{belousovPoissonianCellularPotts2024,
+  title = {Poissonian Cellular {{Potts}} Models Reveal Nonequilibrium Kinetics of Cell Sorting},
+  author = {Belousov, Roman and Savino, Sabrina and Moghe, Prachiti and Hiiragi, Takashi and Rondoni, Lamberto and Erzberger, Anna},
+  year = 2024,
+  month = apr,
+  number = {arXiv:2306.04443},
+  eprint = {2306.04443},
+  primaryclass = {cond-mat},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2306.04443},
+  urldate = {2025-02-11},
+  abstract = {Cellular Potts models are broadly applied across developmental biology and cancer research. We overcome limitations of the traditional approach, which reinterprets a modified Metropolis sampling as ad hoc dynamics, by introducing a physical timescale through Poissonian kinetics and by applying principles of stochastic thermodynamics to separate thermal and relaxation effects from athermal noise and nonconservative forces. Our method accurately describes cell-sorting dynamics in mouse-embryo development and identifies the distinct contributions of nonequilibrium processes, e.g. cell growth and active fluctuations.},
+  archiveprefix = {arXiv},
+  keywords = {Condensed Matter - Statistical Mechanics,Physics - Biological Physics,review_2604_5:vertex-cpm},
+  note = {adding the notion of time to CPMs
+\par
+Comment: 7 Figures},
+  file = {/Users/adrienleroy/Zotero/storage/2AZI4WXH/Belousov et al. - 2024 - Poissonian cellular Potts models reveal nonequilib.pdf;/Users/adrienleroy/Zotero/storage/6IBQH9Q8/2306.html}
+}
+
 @misc{bendidiCrossModalKnowledge2025,
   title = {A {{Cross Modal Knowledge Distillation}} \& {{Data Augmentation Recipe}} for {{Improving Transcriptomics Representations}} through {{Morphological Features}}},
   author = {Bendidi, Ihab and Mesbahi, Yassir El and Denton, Alisandra K. and Suri, Karush and {Kenyon-Dean}, Kian and Genovesio, Auguste and Noutahi, Emmanuel},
@@ -755,6 +98,147 @@ use of CPM to show model cellular packing},
 \par
 Comment: ICML 2025 Main Proceedings},
   file = {/Users/adrienleroy/Zotero/storage/NZ2JKLZT/Bendidi et al. - 2025 - A Cross Modal Knowledge Distillation & Data Augmen.pdf}
+}
+
+@article{buddaySizeCurvatureRegulate2015,
+  title = {Size and Curvature Regulate Pattern Selection in the Mammalian Brain},
+  author = {Budday, Silvia and Steinmann, Paul and Goriely, Alain and Kuhl, Ellen},
+  year = 2015,
+  month = sep,
+  journal = {Extreme Mechanics Letters},
+  volume = {4},
+  pages = {193--198},
+  issn = {2352-4316},
+  doi = {10.1016/j.eml.2015.07.004},
+  urldate = {2025-07-21},
+  abstract = {Mammalian brains display a wide variety of shapes and surface morphologies. Their characteristically folded surface is closely correlated to neuronal activity and serves as a clinical indicator for physiological and pathological conditions. Yet, the regulators of pattern formation in evolution and development remain poorly understood. Here we show how brain size and curvature affect the folding pattern in the developing mammalian brain. We model cortical folding as the instability problem of a bilayered system subjected to growth-induced compression. Using analytical estimates and continuum models for finite growth, we systematically explore the effects of geometric factors on the evolution of surface shape. We demonstrate that extrinsic geometric features--including brain size, cortical thickness, and cortical curvature--tightly regulate pattern selection: The mammalian brain is extremely soft and even small environmental changes can create extremely large alterations in its surface morphology. Our simulations explain why gyrification increases with brain size and why longer brains tend to fold more longitudinally than radially. Our results suggest that brain folding is driven, at least in part, by extreme mechanics, rather than by phylogeny alone.},
+  keywords = {Brain mechanics,Cortical folding,Growth,Instabilities,Living matter,Soft matter,Thin films},
+  file = {/Users/adrienleroy/Zotero/storage/QU5HTEZH/S2352431615000863.html}
+}
+
+@article{bunneLearningSinglecellPerturbation2023,
+  title = {Learning Single-Cell Perturbation Responses Using Neural Optimal Transport},
+  author = {Bunne, Charlotte and Stark, Stefan G. and Gut, Gabriele and {del Castillo}, Jacobo Sarabia and Levesque, Mitch and Lehmann, Kjong-Van and Pelkmans, Lucas and Krause, Andreas and R{\"a}tsch, Gunnar},
+  year = 2023,
+  month = nov,
+  journal = {Nature Methods},
+  volume = {20},
+  number = {11},
+  pages = {1759--1768},
+  publisher = {Nature Publishing Group},
+  issn = {1548-7105},
+  doi = {10.1038/s41592-023-01969-x},
+  urldate = {2024-12-16},
+  abstract = {Understanding and predicting molecular responses in single cells upon chemical, genetic or mechanical perturbations is a core question in biology. Obtaining single-cell measurements typically requires the cells to be destroyed. This makes learning heterogeneous perturbation responses challenging as we only observe unpaired distributions of perturbed or non-perturbed cells. Here we leverage the theory of optimal transport and the recent advent of input convex neural architectures to present CellOT, a framework for learning the response of individual cells to a given perturbation by mapping these unpaired distributions. CellOT outperforms current methods at predicting single-cell drug responses, as profiled by scRNA-seq and a multiplexed protein-imaging technology. Further, we illustrate that CellOT generalizes well on unseen settings by (1) predicting the scRNA-seq responses of holdout patients with lupus exposed to interferon-{$\beta$} and patients with glioblastoma to panobinostat; (2) inferring lipopolysaccharide responses across different species; and (3) modeling the hematopoietic developmental trajectories of different subpopulations.},
+  copyright = {2023 The Author(s)},
+  langid = {english},
+  keywords = {Computational biology and bioinformatics,deep_learning,Machine learning,Molecular biology,optimal_transport,review_2604_5:perturb},
+  note = {using optiaml transport to predict the effect of perturbation},
+  file = {/Users/adrienleroy/Zotero/storage/U4DQ34E4/Bunne et al. - 2023 - Learning single-cell perturbation responses using .pdf}
+}
+
+@article{ChemicalBasisMorphogenesis,
+  title = {The Chemical Basis of Morphogenesis},
+  langid = {english},
+  file = {/Users/adrienleroy/Zotero/storage/V82X5B5D/The chemical basis of morphogenesis.pdf}
+}
+
+@article{demenaBringingLightTranscription2018,
+  title = {Bringing {{Light}} to {{Transcription}}: {{The Optogenetics Repertoire}}},
+  shorttitle = {Bringing {{Light}} to {{Transcription}}},
+  author = {De Mena, Lorena and Rizk, Patrick and {Rincon-Limas}, Diego E.},
+  year = 2018,
+  month = nov,
+  journal = {Frontiers in Genetics},
+  volume = {9},
+  publisher = {Frontiers Media SA},
+  issn = {1664-8021},
+  doi = {10.3389/fgene.2018.00518},
+  urldate = {2025-07-21},
+  abstract = {The ability to manipulate expression of exogenous genes in particular regions of living organisms has profoundly transformed the way we study biomolecular processes involved in both normal development and disease. Unfortunately, most of the classical inducible systems lack fine spatial and temporal accuracy, thereby limiting the study of molecular events that strongly depend on time, duration of activation, or cellular localization. By exploiting genetically engineered photo sensing proteins that respond to specific wavelengths, we can now provide acute control of numerous molecular activities with unprecedented precision. In this review, we present a comprehensive breakdown of all of the current optogenetic systems adapted to regulate gene expression in both unicellular and multicellular organisms. We focus on the advantages and disadvantages of these different tools and discuss current and future challenges in the successful translation to more complex organisms.},
+  copyright = {https://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  file = {/Users/adrienleroy/Zotero/storage/I3IXK74I/De Mena et al. - 2018 - Bringing Light to Transcription The Optogenetics .pdf}
+}
+
+@article{dipietroRapidRobustOptogenetic2021,
+  title = {Rapid and Robust Optogenetic Control of Gene Expression in {{Drosophila}}},
+  author = {Di Pietro, Florencia and Herszterg, Sophie and Huang, Anqi and Bosveld, Floris and Alexandre, Cyrille and Sanc{\'e}r{\'e}, Lucas and Pelletier, St{\'e}phane and Joudat, Amina and Kapoor, Varun and Vincent, Jean-Paul and Bella{\"i}che, Yohanns},
+  year = 2021,
+  month = dec,
+  journal = {Developmental Cell},
+  volume = {56},
+  number = {24},
+  pages = {3393-3404.e7},
+  publisher = {Elsevier BV},
+  issn = {1534-5807},
+  doi = {10.1016/j.devcel.2021.11.016},
+  urldate = {2025-07-21},
+  abstract = {Deciphering gene function requires the ability to control gene expression in space and time. Binary systems such as the Gal4/UAS provide a powerful means to modulate gene expression and to induce loss or gain of function. This is best exemplified in Drosophila, where the Gal4/UAS system has been critical to discover conserved mechanisms in development, physiology, neurobiology, and metabolism, to cite a few. Here we describe a transgenic light-inducible Gal4/UAS system (ShineGal4/UAS) based on Magnet photoswitches. We show that it allows efficient, rapid, and robust activation of UAS-driven transgenes in different tissues and at various developmental stages in Drosophila. Furthermore, we illustrate how ShineGal4 enables the generation of gain and loss-of-function phenotypes at animal, organ, and cellular levels. Thanks to the large repertoire of UAS-driven transgenes, ShineGal4 enriches the Drosophila genetic toolkit by allowing in vivo control of gene expression with high temporal and spatial resolutions.},
+  copyright = {https://www.elsevier.com/tdm/userlicense/1.0/},
+  langid = {english},
+  keywords = {review_2604_5:optogenetic},
+  file = {/Users/adrienleroy/Zotero/storage/ZHBFIV4E/Di Pietro et al. - 2021 - Rapid and robust optogenetic control of gene expre.pdf}
+}
+
+@article{farhadifarInfluenceCellMechanics2007,
+  title = {The {{Influence}} of {{Cell Mechanics}}, {{Cell-Cell Interactions}}, and {{Proliferation}} on {{Epithelial Packing}}},
+  author = {Farhadifar, Reza and R{\"o}per, Jens-Christian and Aigouy, Benoit and Eaton, Suzanne and J{\"u}licher, Frank},
+  year = 2007,
+  month = dec,
+  journal = {Current Biology},
+  volume = {17},
+  number = {24},
+  pages = {2095--2104},
+  publisher = {Elsevier BV},
+  issn = {0960-9822},
+  doi = {10.1016/j.cub.2007.11.049},
+  urldate = {2025-07-19},
+  abstract = {Background: Epithelial junctional networks assume packing geometries characterized by different cell shapes, neighbor number distributions and areas. The development of specific packing geometries is tightly controlled; in the Drosophila wing epithelium, cells convert from an irregular to a hexagonal array shortly before hair formation. Packing geometry is determined by developmental mechanisms that likely control the biophysical properties of cells and their interactions. Results: To understand how physical cellular properties and proliferation determine cell-packing geometries, we use a vertex model for the epithelial junctional network in which cell packing geometries correspond to stable and stationary network configurations. The model takes into account cell elasticity and junctional forces arising from cortical contractility and adhesion. By numerically simulating proliferation, we generate different network morphologies that depend on physical parameters. These networks differ in polygon class distribution, cell area variation, and the rate of T1 and T2 transitions during growth. Comparing theoretical results to observed cell morphologies reveals regions of parameter space where calculated network morphologies match observed ones. We independently estimate parameter values by quantifying network deformations caused by laser ablating individual cell boundaries. Conclusions: The vertex model accounts qualitatively and quantitatively for the observed packing geometry in the wing disc and its response to perturbation by laser ablation. Epithelial packing geometry is a consequence of both physical cellular properties and the disordering influence of proliferation. The occurrence of T2 transitions during network growth suggests that elimination of cells from the proliferating disc epithelium may be the result of junctional force balances.},
+  copyright = {https://www.elsevier.com/tdm/userlicense/1.0/},
+  langid = {english},
+  note = {use of CVM to show model cellular packing},
+  file = {/Users/adrienleroy/Zotero/storage/USXE8ZRV/Farhadifar et al. - 2007 - The Influence of Cell Mechanics, Cell-Cell Interac.pdf}
+}
+
+@article{fletcherMechanocellularModelsEpithelial2017,
+  title = {Mechanocellular Models of Epithelial Morphogenesis},
+  author = {Fletcher, Alexander G. and Cooper, Fergus and Baker, Ruth E.},
+  year = 2017,
+  month = may,
+  journal = {Philosophical Transactions of the Royal Society B: Biological Sciences},
+  volume = {372},
+  number = {1720},
+  pages = {20150519},
+  publisher = {The Royal Society},
+  issn = {0962-8436, 1471-2970},
+  doi = {10.1098/rstb.2015.0519},
+  urldate = {2025-07-19},
+  abstract = {Embryonic epithelia achieve complex morphogenetic movements, including in-plane reshaping, bending and folding, through the coordinated action and rearrangement of individual cells. Technical advances in molecular and live-imaging studies of epithelial dynamics provide a very real opportunity to understand how cell-level processes facilitate these large-scale tissue rearrangements. However, the large datasets that we are now able to generate require careful interpretation. In combination with experimental approaches, computational modelling allows us to challenge and refine our current understanding of epithelial morphogenesis and to explore experimentally intractable questions. To this end, a variety of cell-based modelling approaches have been developed to describe cell--cell mechanical interactions, ranging from vertex and `finite-element' models that approximate each cell geometrically by a polygon representing the cell's membrane, to immersed boundary and subcellular element models that allow for more arbitrary cell shapes. Here, we review how these models have been used to provide insights into epithelial morphogenesis and describe how such models could help future efforts to decipher the forces and mechanical and biochemical feedbacks that guide cell and tissue-level behaviour. In addition, we discuss current challenges associated with using computational models of morphogenetic processes in a quantitative and predictive way.This article is part of the themed issue `Systems morphodynamics: understanding the development of tissue hardware'.},
+  copyright = {https://royalsociety.org/journals/ethics-policies/data-sharing-mining/},
+  langid = {english},
+  note = {Agent based modelling review},
+  file = {/Users/adrienleroy/Zotero/storage/NA9ZYYPA/Fletcher et al. - 2017 - Mechanocellular models of epithelial morphogenesis.pdf}
+}
+
+@article{fletcherVertexModelsEpithelial2014,
+  title = {Vertex {{Models}} of {{Epithelial Morphogenesis}}},
+  author = {Fletcher, Alexander~G. and Osterfield, Miriam and Baker, Ruth~E. and Shvartsman, Stanislav~Y.},
+  year = 2014,
+  month = jun,
+  journal = {Biophysical Journal},
+  volume = {106},
+  number = {11},
+  pages = {2291--2304},
+  publisher = {Elsevier BV},
+  issn = {0006-3495},
+  doi = {10.1016/j.bpj.2013.11.4498},
+  urldate = {2025-07-19},
+  abstract = {The dynamic behavior of epithelial cell sheets plays a central role during numerous developmental processes. Genetic and imaging studies of epithelial morphogenesis in a wide range of organisms have led to increasingly detailed mechanisms of cell sheet dynamics. Computational models offer a useful means by which to investigate and test these mechanisms, and have played a key role in the study of cell-cell interactions. A variety of modeling approaches can be used to simulate the balance of forces within an epithelial sheet. Vertex models are a class of such models that consider cells as individual objects, approximated by two-dimensional polygons representing cellular interfaces, in which each vertex moves in response to forces due to growth, interfacial tension, and pressure within each cell. Vertex models are used to study cellular processes within epithelia, including cell motility, adhesion, mitosis, and delamination. This review summarizes how vertex models have been used to provide insight into developmental processes and highlights current challenges in this area, including progressing these models from two to three dimensions and developing new tools for model validation.},
+  copyright = {https://www.elsevier.com/tdm/userlicense/1.0/},
+  langid = {english},
+  note = {The original vertex model},
+  file = {/Users/adrienleroy/Zotero/storage/RJZPCJ8A/Fletcher et al. - 2014 - Vertex Models of Epithelial Morphogenesis.pdf}
 }
 
 @article{gorfinkielCellAgeGenomic2021,
@@ -792,6 +276,33 @@ Which could be useful for chapter 4},
   file = {/Users/adrienleroy/Zotero/storage/JBVGAYGB/Gorfinkiel et Martinez Arias - 2021 - The cell in the age of the genomic revolution Cel.pdf}
 }
 
+@article{granerSimulationBiologicalCell1992,
+  title = {Simulation of Biological Cell Sorting Using a Two-Dimensional Extended {{Potts}} Model},
+  author = {Graner, F. and Glazier, J. A.},
+  year = 1992,
+  month = sep,
+  journal = {Physical Review Letters},
+  volume = {69},
+  number = {13},
+  pages = {2013--2016},
+  issn = {1079-7114},
+  doi = {10.1103/PhysRevLett.69.2013},
+  langid = {english},
+  pmid = {10046374},
+  keywords = {review_2604_5:vertex-cpm},
+  note = {to cite the original potts model}
+}
+
+@misc{griffinNewGoldenAge,
+  title = {A New Golden Age of Discovery},
+  author = {Griffin, Conor and Wallace, Don and {Mateos-Garcia}, Juan and Schieve, Hanna and Kohli, Pushmeet},
+  publisher = {bioRxiv},
+  archiveprefix = {bioRxiv},
+  langid = {english},
+  note = {A justification of the power of deep learning models for high search space tasks},
+  file = {/Users/adrienleroy/Zotero/storage/VM7P66SB/Griffin et al. - A new golden age of discovery.pdf}
+}
+
 @article{gronbechScVAEVariationalAutoencoders2020,
   title = {{{scVAE}}: Variational Auto-Encoders for Single-Cell Gene Expression Data},
   shorttitle = {{{scVAE}}},
@@ -809,4 +320,493 @@ Which could be useful for chapter 4},
   keywords = {review_2604_3:postprocessing},
   note = {VAE based perturbation modelling},
   file = {/Users/adrienleroy/Zotero/storage/26SK2V63/Grønbech et al. - 2020 - scVAE variational auto-encoders for single-cell g.pdf;/Users/adrienleroy/Zotero/storage/T4YMPZB6/5838187.html}
+}
+
+@article{hannezoTheoryEpithelialSheet2014,
+  title = {Theory of Epithelial Sheet Morphology in Three Dimensions},
+  author = {Hannezo, Edouard and Prost, Jacques and Joanny, Jean-Francois},
+  year = 2014,
+  month = jan,
+  journal = {Proceedings of the National Academy of Sciences},
+  volume = {111},
+  number = {1},
+  pages = {27--32},
+  publisher = {Proceedings of the National Academy of Sciences},
+  doi = {10.1073/pnas.1312076111},
+  urldate = {2025-07-21},
+  abstract = {Morphogenesis during embryo development requires the coordination of mechanical forces to generate the macroscopic shapes of organs. We propose a minimal theoretical model, based on cell adhesion and actomyosin contractility, which describes the various shapes of epithelial cells and the bending and buckling of epithelial sheets, as well as the relative stability of cellular tubes and spheres. We show that, to understand these processes, a full 3D description of the cells is needed, but that simple scaling laws can still be derived. The morphologies observed in vivo can be understood as stable points of mechanical equations and the transitions between them are either continuous or discontinuous. We then focus on epithelial sheet bending, a ubiquitous morphogenetic process. We calculate the curvature of an epithelium as a function of actin belt tension as well as of cell--cell and and cell--substrate tension. The model allows for a comparison of the relative stabilities of spherical or cylindrical cellular structures (acini or tubes). Finally, we propose a unique type of buckling instability of epithelia, driven by a flattening of individual cell shapes, and discuss experimental tests to verify our predictions.},
+  file = {/Users/adrienleroy/Zotero/storage/5BL3CU6L/Hannezo et al. - 2014 - Theory of epithelial sheet morphology in three dim.pdf}
+}
+
+@article{jumperHighlyAccurateProtein2021,
+  title = {Highly Accurate Protein Structure Prediction with {{AlphaFold}}},
+  author = {Jumper, John and Evans, Richard and Pritzel, Alexander and Green, Tim and Figurnov, Michael and Ronneberger, Olaf and Tunyasuvunakool, Kathryn and Bates, Russ and {\v Z}{\'i}dek, Augustin and Potapenko, Anna and Bridgland, Alex and Meyer, Clemens and Kohl, Simon A. A. and Ballard, Andrew J. and Cowie, Andrew and {Romera-Paredes}, Bernardino and Nikolov, Stanislav and Jain, Rishub and Adler, Jonas and Back, Trevor and Petersen, Stig and Reiman, David and Clancy, Ellen and Zielinski, Michal and Steinegger, Martin and Pacholska, Michalina and Berghammer, Tamas and Bodenstein, Sebastian and Silver, David and Vinyals, Oriol and Senior, Andrew W. and Kavukcuoglu, Koray and Kohli, Pushmeet and Hassabis, Demis},
+  year = 2021,
+  month = aug,
+  journal = {Nature},
+  volume = {596},
+  number = {7873},
+  pages = {583--589},
+  publisher = {{Springer Science and Business Media LLC}},
+  issn = {0028-0836, 1476-4687},
+  doi = {10.1038/s41586-021-03819-2},
+  urldate = {2025-07-20},
+  abstract = {AbstractProteins are essential to life, and understanding their structure can facilitate a mechanistic understanding of their function. Through an enormous experimental effort1--4, the structures of around 100,000 unique proteins have been determined5, but this represents a small fraction of the billions of known protein sequences6,7. Structural coverage is bottlenecked by the months to years of painstaking effort required to determine a single protein structure. Accurate computational approaches are needed to address this gap and to enable large-scale structural bioinformatics. Predicting the three-dimensional structure that a protein will adopt based solely on its amino acid sequence---the structure prediction component of the `protein folding problem'8---has been an important open research problem for more than 50~years9. Despite recent progress10--14, existing methods fall far~short of atomic accuracy, especially when no homologous structure is available. Here we provide the first computational method that can regularly predict protein structures with atomic accuracy even in cases in which no similar structure is known. We validated an entirely redesigned version of our neural network-based model, AlphaFold, in the challenging 14th Critical Assessment of protein Structure Prediction (CASP14)15, demonstrating accuracy competitive with experimental structures in a majority of cases and greatly outperforming other methods. Underpinning the latest version of AlphaFold is a novel machine learning approach that incorporates physical and biological knowledge about protein structure, leveraging multi-sequence alignments, into the design of the deep learning algorithm.},
+  copyright = {https://creativecommons.org/licenses/by/4.0},
+  langid = {english},
+  note = {deep learning models are powerful to predict tasks in large search spaces},
+  file = {/Users/adrienleroy/Zotero/storage/D8PXMKLP/Jumper et al. - 2021 - Highly accurate protein structure prediction with .pdf}
+}
+
+@article{kaferCellAdhesionCortex2007,
+  title = {Cell Adhesion and Cortex Contractility Determine Cell Patterning in the            {{{\emph{Drosophila}}}}            Retina},
+  author = {K{\"a}fer, Jos and Hayashi, Takashi and Mar{\'e}e, Athanasius F. M. and Carthew, Richard W. and Graner, Fran{\c c}ois},
+  year = 2007,
+  month = nov,
+  journal = {Proceedings of the National Academy of Sciences},
+  volume = {104},
+  number = {47},
+  pages = {18549--18554},
+  publisher = {Proceedings of the National Academy of Sciences},
+  issn = {0027-8424, 1091-6490},
+  doi = {10.1073/pnas.0704235104},
+  urldate = {2025-07-19},
+  abstract = {Because of the resemblance of many epithelial tissues to densely packed soap bubbles, it has been suggested that surface minimization, which drives soap bubble packing, could be governing cell packing as well. We test this by modeling the shape of the cells in a            Drosophila            retina ommatidium. We use the observed configurations and shapes in wild-type flies, as well as in flies with different numbers of cells per ommatidia, and mutants with cells where E- or N-cadherin is either deleted or misexpressed. We find that surface minimization is insufficient to model the experimentally observed shapes and packing of the cells based on their cadherin expression. We then consider a model in which adhesion leads to a surface increase, balanced by cell cortex contraction. Using the experimentally observed distributions of E- and N-cadherin, we simulate the packing and cell shapes in the wild-type eye. Furthermore, by changing only the corresponding parameters, this model can describe the mutants with different numbers of cells or changes in cadherin expression.},
+  langid = {english},
+  note = {<< the CPM has provided insight about how cortical tension and cell adhesions drive cell sorting and tissue organization >> (Pastor-Escuredo et Del \'Alamo, 2020, p. 5)},
+  file = {/Users/adrienleroy/Zotero/storage/94LU2FDX/Käfer et al. - 2007 - Cell adhesion and cortex contractility determine c.pdf}
+}
+
+@article{kriegTensileForcesGovern2008,
+  title = {Tensile Forces Govern Germ-Layer Organization in Zebrafish},
+  author = {Krieg, M. and {Arboleda-Estudillo}, Y. and Puech, P.-H. and K{\"a}fer, J. and Graner, F. and M{\"u}ller, D. J. and Heisenberg, C.-P.},
+  year = 2008,
+  month = apr,
+  journal = {Nature Cell Biology},
+  volume = {10},
+  number = {4},
+  pages = {429--436},
+  publisher = {{Springer Science and Business Media LLC}},
+  issn = {1465-7392, 1476-4679},
+  doi = {10.1038/ncb1705},
+  urldate = {2025-07-19},
+  copyright = {http://www.springer.com/tdm},
+  langid = {english},
+  note = {<< the CPM has provided insight about how cortical tension and cell adhesions drive cell sorting and tissue organization >> (Pastor-Escuredo et Del \'Alamo, 2020, p. 5)},
+  file = {/Users/adrienleroy/Zotero/storage/IQG4I7WK/Krieg et al. - 2008 - Tensile forces govern germ-layer organization in z.pdf}
+}
+
+@article{kudoMultiplexedImagebasedPooled2025,
+  title = {Multiplexed, Image-Based Pooled Screens in Primary Cells and Tissues with {{PerturbView}}},
+  author = {Kudo, Takamasa and Meireles, Ana M. and Moncada, Reuben and Chen, Yushu and Wu, Ping and Gould, Joshua and Hu, Xiaoyu and Kornfeld, Opher and Jesudason, Rajiv and Foo, Conrad and H{\"o}ckendorf, Burkhard and Corrada Bravo, Hector and Town, Jason P. and Wei, Runmin and Rios, Antonio and Chandrasekar, Vineethkrishna and Heinlein, Melanie and Chuong, Amy S. and Cai, Shuangyi and Lu, Cherry Sakura and Coelho, Paula and Mis, Monika and Celen, Cemre and Kljavin, Noelyn and Jiang, Jian and Richmond, David and Thakore, Pratiksha and {Benito-Guti{\'e}rrez}, Elia and {Geiger-Schuller}, Kathryn and Hleap, Jose Sergio and Kayagaki, Nobuhiko and De Sousa E Melo, Felipe and McGinnis, Lisa and Li, Bo and Singh, Avtar and Garraway, Levi and {Rozenblatt-Rosen}, Orit and Regev, Aviv and Lubeck, Eric},
+  year = 2025,
+  month = jul,
+  journal = {Nature Biotechnology},
+  volume = {43},
+  number = {7},
+  pages = {1091--1100},
+  publisher = {{Springer Science and Business Media LLC}},
+  issn = {1087-0156, 1546-1696},
+  doi = {10.1038/s41587-024-02391-0},
+  urldate = {2025-07-18},
+  copyright = {https://www.springernature.com/gp/researchers/text-and-data-mining},
+  langid = {english},
+  note = {imaging based perturbation modelling in cancer and in single cells},
+  file = {/Users/adrienleroy/Zotero/storage/8NBKDCHB/Kudo et al. - 2025 - Multiplexed, image-based pooled screens in primary.pdf}
+}
+
+@misc{lefebvreLearningConservedMechanism2024,
+  title = {Learning a Conserved Mechanism for Early Neuroectoderm Morphogenesis},
+  author = {Lefebvre, Matthew and Colen, Jonathan and Claussen, Nikolas and Brauns, Fridtjof and Raich, Marion and Mitchell, Noah and Fruchart, Michel and Vitelli, Vincenzo and Streichan, Sebastian J.},
+  year = 2024,
+  month = may,
+  number = {arXiv:2405.18382},
+  eprint = {2405.18382},
+  primaryclass = {physics},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2405.18382},
+  urldate = {2025-02-12},
+  abstract = {Morphogenesis is the process whereby the body of an organism develops its target shape. The morphogen BMP is known to play a conserved role across bilaterian organisms in determining the dorsoventral (DV) axis. Yet, how BMP governs the spatio-temporal dynamics of cytoskeletal proteins driving morphogenetic flow remains an open question. Here, we use machine learning to mine a morphodynamic atlas of Drosophila development, and construct a mathematical model capable of predicting the coupled dynamics of myosin, E-cadherin, and morphogenetic flow. Mutant analysis shows that BMP sets the initial condition of this dynamical system according to the following signaling cascade: BMP establishes DV pair-rule-gene patterns that set-up an E-cadherin gradient which in turn creates a myosin gradient in the opposite direction through mechanochemical feedbacks. Using neural tube organoids, we argue that BMP, and the signaling cascade it triggers, prime the conserved dynamics of neuroectoderm morphogenesis from fly to humans.},
+  archiveprefix = {arXiv},
+  keywords = {Physics - Biological Physics},
+  note = {Comment: Main text: 22 pages, 7 figures. Supplement: 18 pages, 10 figures
+\par
+Here we use the distribution of cytoskeletal protein to predict flow. This is in line with the research trying to link gene expression to dynamic morphogenetic movements},
+  file = {/Users/adrienleroy/Zotero/storage/BPINPWTQ/Lefebvre et al. - 2024 - Learning a conserved mechanism for early neuroecto.pdf;/Users/adrienleroy/Zotero/storage/TJD85JIM/2405.html}
+}
+
+@misc{miladinovicInsilicoBiologicalDiscovery2025,
+  title = {In-Silico Biological Discovery with Large Perturbation Models},
+  author = {Miladinovic, Djordje and H{\"o}ppe, Tobias and Chevalley, Mathieu and Georgiou, Andreas and Stuart, Lachlan and Mehrjou, Arash and Bantscheff, Marcus and Sch{\"o}lkopf, Bernhard and Schwab, Patrick},
+  year = 2025,
+  month = mar,
+  number = {arXiv:2503.23535},
+  eprint = {2503.23535},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2503.23535},
+  urldate = {2025-05-29},
+  abstract = {Data generated in perturbation experiments link perturbations to the changes they elicit and therefore contain information relevant to numerous biological discovery tasks -- from understanding the relationships between biological entities to developing therapeutics. However, these data encompass diverse perturbations and readouts, and the complex dependence of experimental outcomes on their biological context makes it challenging to integrate insights across experiments. Here, we present the Large Perturbation Model (LPM), a deep-learning model that integrates multiple, heterogeneous perturbation experiments by representing perturbation, readout, and context as disentangled dimensions. LPM outperforms existing methods across multiple biological discovery tasks, including in predicting post-perturbation transcriptomes of unseen experiments, identifying shared molecular mechanisms of action between chemical and genetic perturbations, and facilitating the inference of gene-gene interaction networks.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Machine Learning,Quantitative Biology - Quantitative Methods,Statistics - Methodology},
+  note = {On the use of perturbation modelling to predict the effect of optogentics for instance},
+  file = {/Users/adrienleroy/Zotero/storage/87TLMN6P/Miladinovic et al. - 2025 - In-silico biological discovery with large perturba.pdf;/Users/adrienleroy/Zotero/storage/DC2UUV78/2503.html}
+}
+
+@misc{minartzDeepNeuralCellular2025,
+  title = {Deep {{Neural Cellular Potts Models}}},
+  author = {Minartz, Koen and {d'Hondt}, Tim and Hillmann, Leon and Starru{\ss}, J{\"o}rn and Brusch, Lutz and Menkovski, Vlado},
+  year = 2025,
+  month = feb,
+  number = {arXiv:2502.02129},
+  eprint = {2502.02129},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2502.02129},
+  urldate = {2025-05-19},
+  abstract = {The cellular Potts model (CPM) is a powerful computational method for simulating collective spatiotemporal dynamics of biological cells. To drive the dynamics, CPMs rely on physics-inspired Hamiltonians. However, as first principles remain elusive in biology, these Hamiltonians only approximate the full complexity of real multicellular systems. To address this limitation, we propose NeuralCPM, a more expressive cellular Potts model that can be trained directly on observational data. At the core of NeuralCPM lies the Neural Hamiltonian, a neural network architecture that respects universal symmetries in collective cellular dynamics. Moreover, this approach enables seamless integration of domain knowledge by combining known biological mechanisms and the expressive Neural Hamiltonian into a hybrid model. Our evaluation with synthetic and real-world multicellular systems demonstrates that NeuralCPM is able to model cellular dynamics that cannot be accounted for by traditional analytical Hamiltonians.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Machine Learning,CPM,deep-learning,Quantitative Biology - Quantitative Methods,review_2604_5:hybrid},
+  note = {Neural network version of CPM. COuld be the baseline for interpretable models of morphogenesis},
+  file = {/Users/adrienleroy/Zotero/storage/CZWJ5UDH/Minartz et al. - 2025 - Deep Neural Cellular Potts Models.pdf}
+}
+
+@article{monierApicobasalForcesExerted2015,
+  title = {Apico-Basal Forces Exerted by Apoptotic Cells Drive Epithelium Folding},
+  author = {Monier, Bruno and Gettings, Melanie and Gay, Guillaume and Mangeat, Thomas and Schott, Sonia and Guarner, Ana and Suzanne, Magali},
+  year = 2015,
+  month = feb,
+  journal = {Nature},
+  volume = {518},
+  number = {7538},
+  pages = {245--248},
+  publisher = {{Springer Science and Business Media LLC}},
+  issn = {0028-0836, 1476-4687},
+  doi = {10.1038/nature14152},
+  urldate = {2025-07-19},
+  copyright = {https://www.springer.com/tdm},
+  langid = {english},
+  note = {Use of CVM is contexts such as folding},
+  file = {/Users/adrienleroy/Zotero/storage/PTVEYI7Y/Monier et al. - 2015 - Apico-basal forces exerted by apoptotic cells driv.pdf}
+}
+
+@article{palmaPredictingCellMorphological2025,
+  title = {Predicting Cell Morphological Responses to Perturbations Using Generative Modeling},
+  author = {Palma, Alessandro and Theis, Fabian J. and Lotfollahi, Mohammad},
+  year = 2025,
+  month = jan,
+  journal = {Nature Communications},
+  volume = {16},
+  number = {1},
+  publisher = {{Springer Science and Business Media LLC}},
+  issn = {2041-1723},
+  doi = {10.1038/s41467-024-55707-8},
+  urldate = {2025-07-20},
+  abstract = {AbstractAdvancements in high-throughput screenings enable the exploration of rich phenotypic readouts through high-content microscopy, expediting the development of phenotype-based drug discovery. However, analyzing large and complex high-content imaging screenings remains challenging due to incomplete sampling of perturbations and the presence of technical variations between experiments. To tackle these shortcomings, we present IMage Perturbation Autoencoder (IMPA), a generative style-transfer model predicting morphological changes of perturbations across genetic and chemical interventions. We show that IMPA accurately captures morphological and population-level changes of both seen and unseen perturbations on breast cancer and osteosarcoma cells. Additionally, IMPA accounts for batch effects and can model perturbations across various sources of technical variation, further enhancing its robustness in diverse experimental conditions. With the increasing availability of large-scale high-content imaging screens generated by academic and industrial consortia, we envision that IMPA will facilitate the analysis of microscopy data and enable efficient experimental design via in-silico perturbation prediction.},
+  copyright = {https://creativecommons.org/licenses/by/4.0},
+  langid = {english},
+  file = {/Users/adrienleroy/Zotero/storage/GVJ9PXVY/Palma et al. - 2025 - Predicting cell morphological responses to perturb.pdf}
+}
+
+@misc{pasquiVertAXDifferentiableVertex2026,
+  title = {{{VertAX}}: A Differentiable Vertex Model for Learning Epithelial Tissue Mechanics},
+  shorttitle = {{{VertAX}}},
+  author = {Pasqui, Alessandro and Ocana, Jim Martin Catacora and Sinha, Anshuman and Perez, Matthieu and Delbary, Fabrice and Gosti, Giorgio and Miotto, Mattia and Caudo, Domenico and Ernoult, Maxence and Turlier, Herv{\'e}},
+  year = 2026,
+  month = apr,
+  number = {arXiv:2604.06896},
+  eprint = {2604.06896},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2604.06896},
+  urldate = {2026-04-20},
+  abstract = {Epithelial tissues dynamically reshape through local mechanical interactions among cells, a process well captured by vertex models. Yet their many tunable parameters make inference and optimization challenging, motivating computational frameworks that flexibly model and learn tissue mechanics. We introduce VertAX, a differentiable JAX-based framework for vertex-modeling of confluent epithelia. VertAX provides automatic differentiation, GPU acceleration, and end-to-end bilevel optimization for forward simulation, parameter inference, and inverse mechanical design. Users can define arbitrary energy and cost functions in pure Python, enabling seamless integration with machine-learning pipelines. We demonstrate VertAX on three representative tasks: (i) forward modeling of tissue morphogenesis, (ii) mechanical parameter inference, and (iii) inverse design of tissue-scale behaviors. We benchmark three differentiation strategies-automatic differentiation, implicit differentiation, and equilibrium propagation-showing that the latter can approximate gradients using repeated forward, adjoint-free simulations alone, offering a simple route for extending inverse biophysical problems to non-differentiable simulators with limited additional engineering effort.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Machine Learning,Computer Science - Software Engineering,Physics - Biological Physics,review_2604_5:hybrid,review_2604_5:physics-ml,review_2604_5:vertex-cpm},
+  note = {Comment: 28 pages, 4 figures
+\par
+Comment: 28 pages, 4 figures
+\par
+Comment: 28 pages, 4 figures},
+  file = {/Users/adrienleroy/Zotero/storage/WHVQKD2A/Pasqui et al. - 2026 - VertAX a differentiable vertex model for learning.pdf;/Users/adrienleroy/Zotero/storage/XHMBLRK5/2604.html}
+}
+
+@article{pastor-escuredoHowComputationHelping2020,
+  title = {How {{Computation Is Helping Unravel}} the {{Dynamics}} of {{Morphogenesis}}},
+  author = {{Pastor-Escuredo}, David and Del {\'A}lamo, Juan C.},
+  year = 2020,
+  month = feb,
+  journal = {Frontiers in Physics},
+  volume = {8},
+  publisher = {Frontiers Media SA},
+  issn = {2296-424X},
+  doi = {10.3389/fphy.2020.00031},
+  urldate = {2025-07-18},
+  abstract = {The growing availability of imaging data, calculation power, and algorithm sophistication are transforming the study of morphogenesis into a computation-driven discipline. In parallel, it is accepted that mechanics plays a role in many of the processes determining the cell fate map, providing further opportunities for modeling and simulation. We provide a perspective of this integrative field, discussing recent advances and outstanding challenges to understand the determination of the fate map. At the basis, high-resolution microscopy and image processing provide digital representations of embryos that facilitate quantifying their mechanics with computational methods. Moreover, innovations in in-vivo sensing and tissue manipulation can now characterize cell-scale processes to feed larger-scale representations. A variety of mechanical formalisms have been proposed to model cellular biophysics and its links with biochemical and genetic factors. However, there are still limitations derived from the dynamic nature of embryonic tissue and its spatio-temporal heterogeneity. Also, the increasing complexity and variety of implementations make it difficult to harmonize and cross-validate models. The solution to these challenges will likely require integrating novel in vivo measurements of embryonic biomechanics into the models. Machine Learning has great potential to classify spatiotemporally connected groups of cells with similar dynamics. Emerging Deep Learning architectures facilitate the discovery of causal links and are becoming transparent and interpretable. We anticipate these new tools will lead to multi-scale models with the necessary accuracy and flexibility to formulate hypotheses for in-vivo and in-silico testing. These methods have promising applications for tissue engineering, identification of therapeutic targets, and synthetic life.},
+  copyright = {https://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  note = {Also i line with the review. Presents the advacnes in comutational biology. Makes a case for deep lerning as predictors of tissue morphogenesis. 
+\par
+Address de black box nature of DL systems
+\par
+Reviews in depth CPM and CVM (just gives the citaitons, does not explain further)},
+  file = {/Users/adrienleroy/Zotero/storage/HJDAXXCA/Pastor-Escuredo et Del Álamo - 2020 - How Computation Is Helping Unravel the Dynamics of.pdf}
+}
+
+@article{priceProbabilisticWeatherForecasting2024,
+  title = {Probabilistic Weather Forecasting with Machine Learning},
+  author = {Price, Ilan and {Sanchez-Gonzalez}, Alvaro and Alet, Ferran and Andersson, Tom R. and {El-Kadi}, Andrew and Masters, Dominic and Ewalds, Timo and Stott, Jacklynn and Mohamed, Shakir and Battaglia, Peter and Lam, Remi and Willson, Matthew},
+  year = 2024,
+  month = dec,
+  journal = {Nature},
+  pages = {1--7},
+  publisher = {Nature Publishing Group},
+  issn = {1476-4687},
+  doi = {10.1038/s41586-024-08252-9},
+  urldate = {2024-12-10},
+  abstract = {Weather forecasts are fundamentally uncertain, so predicting the range of probable weather scenarios is crucial for important decisions, from warning the public about hazardous weather to planning renewable energy use. Traditionally, weather forecasts have been based on numerical weather prediction (NWP)1, which relies on physics-based simulations of the atmosphere. Recent advances in machine learning (ML)-based weather prediction (MLWP) have produced ML-based models with less forecast error than single NWP simulations2,3. However, these advances have focused primarily on single, deterministic forecasts that fail to represent uncertainty and estimate risk. Overall, MLWP has remained less accurate and reliable than state-of-the-art NWP ensemble forecasts. Here we introduce GenCast, a probabilistic weather model with greater skill and speed than the top operational medium-range weather forecast in the world, ENS, the ensemble forecast of the European Centre for Medium-Range Weather~Forecasts4. GenCast is an ML weather prediction method, trained on decades of reanalysis data. GenCast generates an ensemble of stochastic 15-day global forecasts, at 12-h steps and 0.25{$^\circ$} latitude--longitude resolution, for more than 80 surface and atmospheric variables, in 8\,min. It has greater skill than ENS on 97.2\% of 1,320 targets we evaluated and better predicts extreme weather, tropical cyclone tracks and wind power production. This work helps open the next chapter in operational weather forecasting, in which crucial weather-dependent decisions are made more accurately and efficiently.},
+  copyright = {2024 The Author(s)},
+  langid = {english},
+  keywords = {Atmospheric dynamics,Computer science,Natural hazards},
+  note = {use of neural networks for high search space and complex spatio temporal dynamics},
+  file = {/Users/adrienleroy/Zotero/storage/NSELCTSJ/Price et al. - 2024 - Probabilistic weather forecasting with machine lea.pdf}
+}
+
+@article{rauziEmbryoscaleTissueMechanics2015,
+  title = {Embryo-Scale Tissue Mechanics during {{Drosophila}} Gastrulation Movements},
+  author = {Rauzi, Matteo and Krzic, Uros and Saunders, Timothy E. and Krajnc, Matej and Ziherl, Primo{\v z} and Hufnagel, Lars and Leptin, Maria},
+  year = 2015,
+  month = oct,
+  journal = {Nature Communications},
+  volume = {6},
+  number = {1},
+  publisher = {{Springer Science and Business Media LLC}},
+  issn = {2041-1723},
+  doi = {10.1038/ncomms9677},
+  urldate = {2025-07-19},
+  abstract = {AbstractMorphogenesis of an organism requires the development of its parts to be coordinated in time and space. While past studies concentrated on defined cell populations, a synthetic view of the coordination of these events in a whole organism is needed for a full understanding. Drosophila gastrulation begins with the embryo forming a ventral furrow, which is eventually internalized. It is not understood how the rest of the embryo participates in this process. Here we use multiview selective plane illumination microscopy coupled with infrared laser manipulation and mutant analysis to dissect embryo-scale cell interactions during early gastrulation. Lateral cells have a denser medial--apical actomyosin network and shift ventrally as a compact cohort, whereas dorsal cells become stretched. We show that the behaviour of these cells affects furrow internalization. A computational model predicts different mechanical properties associated with tissue behaviour: lateral cells are stiff, whereas dorsal cells are soft. Experimental analysis confirms these properties in vivo.},
+  copyright = {https://creativecommons.org/licenses/by/4.0},
+  langid = {english},
+  note = {use of CVM to model large scale embryo movements},
+  file = {/Users/adrienleroy/Zotero/storage/H9ENHV2U/Rauzi et al. - 2015 - Embryo-scale tissue mechanics during Drosophila ga.pdf}
+}
+
+@article{sandersiusEmergentCellTissue2011,
+  title = {Emergent Cell and Tissue Dynamics from Subcellular Modeling of Active Biomechanical Processes},
+  author = {Sandersius, S A and Weijer, C J and Newman, T J},
+  year = 2011,
+  month = jul,
+  journal = {Physical Biology},
+  volume = {8},
+  number = {4},
+  pages = {045007},
+  issn = {1478-3975},
+  doi = {10.1088/1478-3975/8/4/045007},
+  urldate = {2025-07-21},
+  abstract = {Cells and the tissues they form are not passive material bodies. Cells change their behavior in response to external biochemical and biomechanical cues. Behavioral changes, such as morphological deformation, proliferation and migration, are striking in many multicellular processes such as morphogenesis, wound healing and cancer progression. Cell-based modeling of these phenomena requires algorithms that can capture active cell behavior and their emergent tissue-level phenotypes. In this paper, we report on extensions of the subcellular element model to model active biomechanical subcellular processes. These processes lead to emergent cell and tissue level phenotypes at larger scales, including (i) adaptive shape deformations in cells responding to slow stretching, (ii) viscous flow of embryonic tissues, and (iii) streaming patterns of chemotactic cells in epithelial-like sheets. In each case, we connect our simulation results to recent experiments.},
+  langid = {english},
+  file = {/Users/adrienleroy/Zotero/storage/3PH5VM28/Sandersius et al. - 2011 - Emergent cell and tissue dynamics from subcellular modeling of active biomechanical processes.pdf}
+}
+
+@misc{saundersPlatformMultimodalinVivopooled2024,
+  title = {A Platform for Multimodal{\emph{in Vivo}}pooled Genetic Screens Reveals Regulators of Liver Function},
+  author = {Saunders, Reuben A. and Allen, William E. and Pan, Xingjie and Sandhu, Jaspreet and Lu, Jiaqi and Lau, Thomas K. and Smolyar, Karina and Sullivan, Zuri A. and Dulac, Catherine and Weissman, Jonathan S. and Zhuang, Xiaowei},
+  year = 2024,
+  month = nov,
+  publisher = {Cold Spring Harbor Laboratory},
+  doi = {10.1101/2024.11.18.624217},
+  urldate = {2025-07-18},
+  abstract = {Organ function requires coordinated activities of thousands of genes in distinct, spatially organized cell types. Understanding the basis of emergent tissue function requires approaches to dissect the genetic control of diverse cellular and tissue phenotypes in vivo. Here, we develop paired imaging and sequencing methods to construct large-scale, multi-modal genotype-phenotypes maps in tissue with pooled genetic perturbations. Using imaging, we identify genetic perturbations in individual cells while simultaneously measuring their gene expression and subcellular morphology. Using single-cell sequencing, we measure transcriptomic responses to the same genetic perturbations. We apply this approach to study hundreds of genetic perturbations in the mouse liver. Our study reveals regulators of hepatocyte zonation and liver unfolded protein response, as well as distinct pathways that cause hepatocyte steatosis. Our approach enables new ways of interrogating the genetic basis of complex cellular and organismal physiology and provides crucial training data for emerging machine-learning models of cellular function.},
+  archiveprefix = {Cold Spring Harbor Laboratory},
+  copyright = {http://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  note = {a link between genotype and phenotype using imaging as well},
+  file = {/Users/adrienleroy/Zotero/storage/QPW2I5B8/Saunders et al. - 2024 - A platform for multimodalin vivopooled gene.pdf}
+}
+
+@article{schmittMachineLearningInterpretable2024,
+  title = {Machine Learning Interpretable Models of Cell Mechanics from Protein Images},
+  author = {Schmitt, Matthew S. and Colen, Jonathan and Sala, Stefano and Devany, John and Seetharaman, Shailaja and Caillier, Alexia and Gardel, Margaret L. and Oakes, Patrick W. and Vitelli, Vincenzo},
+  year = 2024,
+  month = jan,
+  journal = {Cell},
+  volume = {187},
+  number = {2},
+  pages = {481-494.e24},
+  publisher = {Elsevier},
+  issn = {0092-8674, 1097-4172},
+  doi = {10.1016/j.cell.2023.11.041},
+  urldate = {2025-01-20},
+  abstract = {{$<$}h2{$>$}Summary{$<$}/h2{$><$}p{$>$}Cellular form and function emerge from complex mechanochemical systems within the cytoplasm. Currently, no systematic strategy exists to infer large-scale physical properties of a cell from its molecular components. This is an obstacle to understanding processes such as cell adhesion and migration. Here, we develop a data-driven modeling pipeline to learn the mechanical behavior of adherent cells. We first train neural networks to predict cellular forces from images of cytoskeletal proteins. Strikingly, experimental images of a single focal adhesion (FA) protein, such as zyxin, are sufficient to predict forces and can generalize to unseen biological regimes. Using this observation, we develop two approaches---one constrained by physics and the other agnostic---to construct data-driven continuum models of cellular forces. Both reveal how cellular forces are encoded by two distinct length scales. Beyond adherent cell mechanics, our work serves as a case study for integrating neural networks into predictive models for cell biology.{$<$}/p{$>$}},
+  langid = {english},
+  pmid = {38194965},
+  note = {predicting stress from cytoskeletal proteins as well},
+  file = {/Users/adrienleroy/Zotero/storage/PN8H8SBN/Schmitt et al. - 2024 - Machine learning interpretable models of cell mech.pdf}
+}
+
+@article{silverMasteringGameGo2016,
+  title = {Mastering the Game of {{Go}} with Deep Neural Networks and Tree Search},
+  author = {Silver, David and Huang, Aja and Maddison, Chris J. and Guez, Arthur and Sifre, Laurent and Van Den Driessche, George and Schrittwieser, Julian and Antonoglou, Ioannis and Panneershelvam, Veda and Lanctot, Marc and Dieleman, Sander and Grewe, Dominik and Nham, John and Kalchbrenner, Nal and Sutskever, Ilya and Lillicrap, Timothy and Leach, Madeleine and Kavukcuoglu, Koray and Graepel, Thore and Hassabis, Demis},
+  year = 2016,
+  month = jan,
+  journal = {Nature},
+  volume = {529},
+  number = {7587},
+  pages = {484--489},
+  publisher = {{Springer Science and Business Media LLC}},
+  issn = {0028-0836, 1476-4687},
+  doi = {10.1038/nature16961},
+  urldate = {2025-07-20},
+  copyright = {https://www.springer.com/tdm},
+  langid = {english},
+  note = {Use of deep learning methods for tasks with large search space},
+  file = {/Users/adrienleroy/Zotero/storage/PTUI7TLE/Silver et al. - 2016 - Mastering the game of Go with deep neural networks.pdf}
+}
+
+@article{stillmanGenerativeModelsMorphogenesis2023,
+  title = {Generative Models of Morphogenesis in Developmental Biology},
+  author = {Stillman, Namid R. and Mayor, Roberto},
+  year = 2023,
+  month = sep,
+  journal = {Seminars in Cell \& Developmental Biology},
+  volume = {147},
+  pages = {83--90},
+  publisher = {Elsevier BV},
+  issn = {1084-9521},
+  doi = {10.1016/j.semcdb.2023.02.001},
+  urldate = {2025-07-20},
+  abstract = {Understanding the mechanism by which cells coordinate their differentiation and migration is critical to our understanding of many fundamental processes such as wound healing, disease progression, and developmental biology. Mathematical models have been an essential tool for testing and developing our understanding, such as models of cells as soft spherical particles, reaction-diffusion systems that couple cell movement to environmental factors, and multi-scale multi-physics simulations that combine bottom-up rule-based models with continuum laws. However, mathematical models can often be loosely related to data or have so many parameters that model behaviour is weakly constrained. Recent methods in machine learning introduce new means by which models can be derived and deployed. In this review, we discuss examples of mathematical models of aspects of devel\- opmental biology, such as cell migration, and how these models can be combined with these recent machine learning methods.},
+  copyright = {https://www.elsevier.com/tdm/userlicense/1.0/},
+  langid = {english},
+  note = {A justification of deep learning models for predicting biological tasks},
+  file = {/Users/adrienleroy/Zotero/storage/YYLDYXTW/Stillman et Mayor - 2023 - Generative models of morphogenesis in developmenta.pdf}
+}
+
+@inbook{swatMultiScaleModelingTissues2012,
+  title = {Multi-{{Scale Modeling}} of {{Tissues Using CompuCell3D}}},
+  booktitle = {Methods in {{Cell Biology}}},
+  year = 2012,
+  pages = {325--366},
+  publisher = {Elsevier},
+  issn = {0091-679X},
+  doi = {10.1016/b978-0-12-388403-9.00013-8},
+  urldate = {2025-07-19},
+  collaborator = {Swat, Maciej H. and Thomas, Gilberto L. and Belmonte, Julio M. and Shirinifard, Abbas and Hmeljak, Dimitrij and Glazier, James A.},
+  langid = {english},
+  note = {to cite the original potts model},
+  file = {/Users/adrienleroy/Zotero/storage/TLGMDETB/2012 - Multi-Scale Modeling of Tissues Using CompuCell3D.pdf}
+}
+
+@article{tamulonisCellbasedModelNematostella2011,
+  title = {A Cell-Based Model of {{Nematostella}} Vectensis Gastrulation Including Bottle Cell Formation, Invagination and Zippering},
+  author = {Tamulonis, Carlos and Postma, Marten and Marlow, Heather Q. and Magie, Craig R. and {de Jong}, Johann and Kaandorp, Jaap},
+  year = 2011,
+  month = mar,
+  journal = {Developmental Biology},
+  volume = {351},
+  number = {1},
+  pages = {217--228},
+  issn = {1095-564X},
+  doi = {10.1016/j.ydbio.2010.10.017},
+  abstract = {The gastrulation of Nematostella vectensis, the starlet sea anemone, is morphologically simple yet involves many conserved cell behaviors such as apical constriction, invagination, bottle cell formation, cell migration and zippering found during gastrulation in a wide range of more morphologically complex animals. In this article we study Nematostella gastrulation using a combination of morphometrics and computational modeling. Through this analysis we frame gastrulation as a non-trivial problem, in which two distinct cell domains must change shape to match each other geometrically, while maintaining the integrity of the embryo. Using a detailed cell-based model capable of representing arbitrary cell-shapes such as bottle cells, as well as filopodia, localized adhesion and constriction, we are able to simulate gastrulation and associate emergent macroscopic changes in embryo shape to individual cell behaviors. We have developed a number of testable hypotheses based on the model. First, we hypothesize that the blastomeres need to be stiffer at their apical ends, relative to the rest of the cell perimeter, in order to be able to hold their wedge shape and the dimensions of the blastula, regardless of whether the blastula is sealed or leaky. We also postulate that bottle cells are a consequence of cell strain and low cell-cell adhesion, and can be produced within an epithelium even without apical constriction. Finally, we postulate that apical constriction, filopodia and de-epithelialization are necessary and sufficient for gastrulation based on parameter variation studies.},
+  langid = {english},
+  pmid = {20977902},
+  keywords = {Animals,Cell Adhesion,Cell Movement,Ectoderm,Endoderm,Gastrulation,Models Biological,Sea Anemones}
+}
+
+@misc{vanliedekerkeQuantitativeModelingCell2019,
+  title = {Quantitative Modeling of Cell and Tissue Mechanics with Agent-Based Models},
+  author = {{van Liedekerke}, Paul},
+  year = 2019,
+  month = jan,
+  publisher = {HAL},
+  archiveprefix = {HAL},
+  langid = {english},
+  note = {Agent based modelling review},
+  file = {/Users/adrienleroy/Zotero/storage/73BNHL9T/van Liedekerke - Quantitative modeling of cell and tissue mechanics.pdf}
+}
+
+@article{voss-bohmeMultiScaleModelingMorphogenesis2012,
+  title = {Multi-{{Scale Modeling}} in {{Morphogenesis}}: {{A Critical Analysis}} of the {{Cellular Potts Model}}},
+  shorttitle = {Multi-{{Scale Modeling}} in {{Morphogenesis}}},
+  author = {{Voss-B{\"o}hme}, Anja},
+  editor = {Aegerter, Christof Markus},
+  year = 2012,
+  month = sep,
+  journal = {PLoS ONE},
+  volume = {7},
+  number = {9},
+  pages = {e42852},
+  publisher = {Public Library of Science (PLoS)},
+  issn = {1932-6203},
+  doi = {10.1371/journal.pone.0042852},
+  urldate = {2025-07-19},
+  abstract = {Cellular Potts models (CPMs) are used as a modeling framework to elucidate mechanisms of biological development. They allow a spatial resolution below the cellular scale and are applied particularly when problems are studied where multiple spatial and temporal scales are involved. Despite the increasing usage of CPMs in theoretical biology, this model class has received little attention from mathematical theory. To narrow this gap, the CPMs are subjected to a theoretical study here. It is asked to which extent the updating rules establish an appropriate dynamical model of intercellular interactions and what the principal behavior at different time scales characterizes. It is shown that the longtime behavior of a CPM is degenerate in the sense that the cells consecutively die out, independent of the specific interdependence structure that characterizes the model. While CPMs are naturally defined on finite, spatially bounded lattices, possible extensions to spatially unbounded systems are explored to assess to which extent spatio-temporal limit procedures can be applied to describe the emergent behavior at the tissue scale. To elucidate the mechanistic structure of CPMs, the model class is integrated into a general multiscale framework. It is shown that the central role of the surface fluctuations, which subsume several cellular and intercellular factors, entails substantial limitations for a CPM's exploitation both as a mechanistic and as a phenomenological model.},
+  copyright = {http://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  keywords = {review_2604_5:vertex-cpm},
+  note = {CPM are well suited to study multi scale phenomea such as morphogenesis},
+  file = {/Users/adrienleroy/Zotero/storage/QY8AUANG/Voss-Böhme - 2012 - Multi-Scale Modeling in Morphogenesis A Critical .pdf}
+}
+
+@article{wangScientificDiscoveryAge2023,
+  title = {Scientific Discovery in the Age of Artificial Intelligence},
+  author = {Wang, Hanchen and Fu, Tianfan and Du, Yuanqi and Gao, Wenhao and Huang, Kexin and Liu, Ziming and Chandak, Payal and Liu, Shengchao and Van Katwyk, Peter and Deac, Andreea and Anandkumar, Anima and Bergen, Karianne and Gomes, Carla P. and Ho, Shirley and Kohli, Pushmeet and Lasenby, Joan and Leskovec, Jure and Liu, Tie-Yan and Manrai, Arjun and Marks, Debora and Ramsundar, Bharath and Song, Le and Sun, Jimeng and Tang, Jian and Veli{\v c}kovi{\'c}, Petar and Welling, Max and Zhang, Linfeng and Coley, Connor W. and Bengio, Yoshua and Zitnik, Marinka},
+  year = 2023,
+  month = aug,
+  journal = {Nature},
+  volume = {620},
+  number = {7972},
+  pages = {47--60},
+  publisher = {{Springer Science and Business Media LLC}},
+  issn = {0028-0836, 1476-4687},
+  doi = {10.1038/s41586-023-06221-2},
+  urldate = {2025-07-20},
+  copyright = {https://www.springernature.com/gp/researchers/text-and-data-mining},
+  langid = {english},
+  note = {Adds the notion of the usefulness of inductive biases},
+  file = {/Users/adrienleroy/Zotero/storage/X8UKPCPX/Wang et al. - 2023 - Scientific discovery in the age of artificial inte.pdf}
+}
+
+@article{waynebrodlandMechanicsCellSorting2000,
+  title = {The Mechanics of Cell Sorting and Envelopment},
+  author = {Wayne Brodland, G and Chen, Helen H},
+  year = 2000,
+  month = jul,
+  journal = {Journal of Biomechanics},
+  volume = {33},
+  number = {7},
+  pages = {845--851},
+  issn = {0021-9290},
+  doi = {10.1016/S0021-9290(00)00011-7},
+  urldate = {2025-07-21},
+  abstract = {Aggregates of embryonic cells undergo a variety of intriguing processes including sorting by histological type and envelopment of cell masses of one type by another. It has long been held that these processes were driven by differential adhesions, as embodied in the famous differential adhesion hypothesis (DAH). Here, we use analytical mechanics to investigate the forces that are generated by various sub-cellular structures including microfilaments, cell membranes and their associated proteins, and by sources of cell--cell adhesions. We consider how these forces cause the triple junctions between cells to move, and how these motions ultimately give rise to phenomena such as cell sorting and tissue envelopment. The analyses show that, contrary to the widely accepted DAH, differential adhesions alone are unable to drive sorting and envelopment. They show, instead, that these phenomena are driven by the combined effect of several force generators, as embodied in an equivalent surface or interfacial tension. These unconventional findings follow directly from the relevant surface physics and mechanics, and are consistent with well-known cell sorting and envelopment experiments, and with recent computer simulations.},
+  keywords = {Cell mechanics,Cell sorting,Differential adhesion hypothesis (DAH)},
+  file = {/Users/adrienleroy/Zotero/storage/3LM5WMZA/S0021929000000117.html}
+}
+
+@misc{yangMulticellFoldGeometricLearning2024,
+  title = {Multicell-{{Fold}}: Geometric Learning in Folding Multicellular Life},
+  shorttitle = {Multicell-{{Fold}}},
+  author = {Yang, Haiqian and Nguyen, Anh Q. and Bi, Dapeng and Buehler, Markus J. and Guo, Ming},
+  year = 2024,
+  month = jul,
+  number = {arXiv:2407.07055},
+  eprint = {2407.07055},
+  primaryclass = {cond-mat},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2407.07055},
+  urldate = {2025-07-18},
+  abstract = {During developmental processes such as embryogenesis, how a group of cells fold into specific structures, is a central question in biology that defines how living organisms form. Establishing tissue-level morphology critically relies on how every single cell decides to position itself relative to its neighboring cells. Despite its importance, it remains a major challenge to understand and predict the behavior of every cell within the living tissue over time during such intricate processes. To tackle this question, we propose a geometric deep learning model that can predict multicellular folding and embryogenesis, accurately capturing the highly convoluted spatial interactions among cells. We demonstrate that multicellular data can be represented with both granular and foam-like physical pictures through a unified graph data structure, considering both cellular interactions and cell junction networks. We successfully use our model to achieve two important tasks, interpretable 4-D morphological sequence alignment, and predicting local cell rearrangements before they occur at single-cell resolution. Furthermore, using an activation map and ablation studies, we demonstrate that cell geometries and cell junction networks together regulate local cell rearrangement which is critical for embryo morphogenesis. This approach provides a novel paradigm to study morphogenesis, highlighting a unified data structure and harnessing the power of geometric deep learning to accurately model the mechanisms and behaviors of cells during development. It offers a pathway toward creating a unified dynamic morphological atlas for a variety of developmental processes such as embryogenesis.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Machine Learning,Condensed Matter - Soft Condensed Matter,Physics - Biological Physics,review_2604_5:physics-ml},
+  note = {unified graph structure and modelling of the behvaiour of multicellular tissue},
+  file = {/Users/adrienleroy/Zotero/storage/4ZAHP2UB/s41592-025-02983-x.pdf;/Users/adrienleroy/Zotero/storage/CKQGCEPV/2407.07055v2.pdf;/Users/adrienleroy/Zotero/storage/WK6ULPGP/Yang et al. - 2024 - Multicell-Fold geometric learning in folding mult.pdf;/Users/adrienleroy/Zotero/storage/8KUCGSZ9/2407.html}
+}
+
+@article{zhuDrosophilaGermBand,
+  title = {Drosophila Germ Band Extension: A Two-State Reshaping Mechanism},
+  author = {Zhu, Tianyi and Zhu, Hongkang and O'Shaughnessy, Ben},
+  langid = {english},
+  file = {/Users/adrienleroy/Zotero/storage/SREY82GD/Zhu et al. - Drosophila germ band extension a two-state reshaping mechanism.pdf}
 }
